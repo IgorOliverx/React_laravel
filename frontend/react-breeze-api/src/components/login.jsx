@@ -6,7 +6,12 @@ const Login = () => {
     // Inicialização dos estados para armazenar o email, a senha e a função de navegação
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
     const navigate = useNavigate();
+
+    // axios.defaults.headers.common['X-CSRF-TOKEN'] = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+    //axios.defaults.header.common['X-CSRF-TOKEN'] = document.querySelector()
+
 
     // Função para lidar com o login
     const handleLogin = async (event) => {
@@ -21,8 +26,9 @@ const Login = () => {
 
             // Navega para a página inicial após o login bem-sucedido
             navigate("/");
-        } catch (e) {
-            console.log(e); // Em caso de erro, imprime o erro no console
+        } catch (error) {
+            console.log(error); // Em caso de erro, imprime o erro no console
+            setError(error.response.data.message)
         }
     }
 
@@ -144,6 +150,13 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+
+
+            {error && (
+                <div className="flex">
+                    <span className="text-red-400 text-sm m-2 p-2">{error}</span>
+                </div>
+            )}
         </section>
     );
 }
