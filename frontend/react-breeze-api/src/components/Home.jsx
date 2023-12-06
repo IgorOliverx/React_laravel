@@ -23,6 +23,7 @@ const Home = () => {
       <footer className="footer" id="footer">
        <Footer  />
       </footer>
+
     </>
   );
 };

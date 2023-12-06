@@ -206,16 +206,3 @@ document.querySelectorAll('.About-Us-Link').forEach(anchor => {
 
 
 
-import { renderizacao } from "./cardProdutos.js";
-import { inicializarCarrinho } from "./carrinho.js";
-import {footer} from "./templates/footer.js"
-
-document.addEventListener("DOMContentLoaded", function () {
-  const footerElement = document.getElementById('footer');
-  const footerContent = footer();
-  footerElement.innerHTML += footerContent;
-});
-
-renderizacao();
-inicializarCarrinho();
-

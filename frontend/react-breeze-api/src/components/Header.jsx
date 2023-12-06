@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+
+
+
 const Header = () => {
     return (
         <><img className="banner" src="../assets/img/banner/PetCandle.svg" alt="" /><header className="header">
@@ -10,7 +14,7 @@ const Header = () => {
                     <ul>
                         <a href="index.html" className="...">Home</a>
                         <a href="#" className="...">Produtos</a>
-                        <a href="services.html" className="...">Serviços</a>
+                        <Link to="/servicos" className="...">   </Link>
                         <a href="#AboutUs" className="About-Us-Link">Sobre nós</a>
                     </ul>
                 </div>

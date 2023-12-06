@@ -70,7 +70,57 @@ const Produtos = () => {
       </div>
 
 
-{/* O RESTO DO CODIGO ESTA AQUI */}
+
+      {/* Categoria - Veterinário */}
+      <div className="category">
+        <span className="category-products" id="cat-doc">
+          <h2>Veterinário</h2>
+        </span>
+      </div>
+
+      {/* Container Card 2 */}
+      <div className="container-card2">
+        <button className="prevItem" id="prevItem2"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <div className="slider-container">
+          <div className="div-cards-slide2" id="card-slide2">
+          </div>
+        </div>
+        <button className="nextItem" id="nextItem2"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+      </div>
+
+      {/* Categoria - Brinquedos */}
+      <div className="category">
+        <span className="category-products" id="cat-toys">
+          <h2>Brinquedos</h2>
+        </span>
+      </div>
+
+      {/* Container Card 3 */}
+      <div className="container-card3">
+        <button className="prevItem" id="prevItem3"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <div className="slider-container">
+          <div className="div-cards-slide3" id="card-slide3">
+          </div>
+        </div>
+        <button className="nextItem" id="nextItem3"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+      </div>
+
+      {/* Categoria - Adote seu pet */}
+      <div className="category">
+        <span className="category-products" id="cat-pet">
+          <h2>Adote seu pet</h2>
+        </span>
+      </div>
+
+      {/* Container Card 4 */}
+      <div className="container-card4">
+        <button className="prevItem" id="prevItem4"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <div className="slider-container">
+          <div className="div-cards-slide4" id="card-slide4">
+          </div>
+        </div>
+        <button className="nextItem" id="nextItem4"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+      </div>
     </>
   );
 };
