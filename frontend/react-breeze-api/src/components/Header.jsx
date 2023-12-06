@@ -17,12 +17,14 @@ const Header = () => {
                         <div className="cancelar-menu">
                             <img class="cancelar-img" src="../assets/img/icones/icones_tec/cancelar.png" alt="menu-hamburguer" />
                         </div>
-                        <ul class="links-hamburguer">
-                            <a href="/" >Home</a>
-                            <a href="#" >Produtos</a>
-                            <Link to="/servicos" >Serviços</Link>
-                            <a href="#AboutUs" >Sobre nós</a>
-                        </ul>
+                        <div class="links-hamburguer">
+                            <ul>
+                                <a href="/" className="...">Home</a>
+                                <a href="#" className="...">Produtos</a>
+                                <Link to="/servicos" className="...">Serviços</Link>
+                                <a href="#AboutUs" className="About-Us-Link">Sobre nós</a>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 

@@ -99,9 +99,14 @@ body {
 .container-menu-hamburguer{
   height: 50%;
 }
-.container-menu-hamburguer .links-hamburguer{
-color: #ff8e15;
+.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul{
+  display: flex;
+  flex-direction: column;
 }
+.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul a{
+  color: #ff8e15;
+}
+
 .cancelar-menu{
   height: 30px;
   width: 100%;
@@ -144,7 +149,7 @@ color: #ff8e15;
   justify-content: center;
   justify-content: space-between;
 }
-.header .navbar ul a {
+.header .navbar .links-responsive .links ul a {
   text-decoration: none;
   /*color: rgb(116, 60, 60);*/ 
   color: #ff8e15;
