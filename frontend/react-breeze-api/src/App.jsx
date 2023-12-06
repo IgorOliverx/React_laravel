@@ -4,6 +4,7 @@ import Home from "./components/Home.jsx";
 import Login from "./components/login.jsx";
 import Register from "./components/Register.jsx";
  import Servicos from "./components/Servicos.jsx"
+ import LandPage from "./components/LandPage.jsx"
 import '../src/css/index.css';
 
 function App(){
@@ -59,6 +60,7 @@ function App(){
                     <Route path="/login" element={<Login />} />
                     <Route path="/cadastro" element={<Register />} />
                     <Route path="/servicos" element={<Servicos />} />
+                    <Route path="/teste" element={<LandPage />} />
                     
                 </Routes>
             </div>

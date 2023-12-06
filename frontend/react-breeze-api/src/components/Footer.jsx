@@ -1,26 +1,12 @@
 import React from 'react';
+import SocialCard from "./SocialIcons.jsx"; 
 
 const Footer = () => {
   return (
     <><div className="footer-top">
           {/* Redes Sociais */}
-          <div className="div-social-midias">
-              <div className="social-midia-top">
-                  <h5>Acesse nossas redes-sociais!</h5>
-              </div>
-              <div className="social-midia-bottom">
-                  <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                      <img src="../assets/img/icones/icones_redes_sociais/instagram.png" alt="Instagram" />
-                  </a>
-                  <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
-                      <img src="../assets/img/icones/icones_redes_sociais/facebook.png" alt="Facebook" />
-                  </a>
-                  <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank" rel="noopener noreferrer">
-                      <img src="../assets/img/icones/icones_redes_sociais/twitter.png" alt="Twitter" />
-                  </a>
-              </div>
-          </div>
-
+         <SocialCard/>
+         
           {/* Input de contato */}
           <div className="div-contact-input">
               <input type="text" placeholder="Contato" />

@@ -12,9 +12,9 @@ const Servicos = () => {
               </div>
               <div className="links">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="/">Home</a></li>
                   <li><a href="#">Produtos</a></li>
-                  <li><a href="services.html">Serviços</a></li>
+                  <li><a href="/services">Serviços</a></li>
                   <li><a href="#AboutUs" className="About-Us-Link">Sobre nós</a></li>
                 </ul>
               </div>
