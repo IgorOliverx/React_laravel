@@ -1,0 +1,98 @@
+    
+    export function footer() {
+const footerHTML = `<div class="footer-top">
+<!-- Redes Sociais -->
+<div class="div-social-midias">
+  <div class="social-midia-top">
+    <h5>Acesse nossas redes-sociais!</h5>
+  </div>
+  <div class="social-midia-bottom">
+    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/icones/icones_redes_sociais/instagram.png"
+        alt="Instagram"></a>
+    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img
+        src="../assets/img/icones/icones_redes_sociais/facebook.png" alt="Facebook"></a>
+    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+      target="_blank"><img src="../assets/img/icones/icones_redes_sociais/twitter.png" alt="Twitter"></a>
+  </div>
+</div>
+
+<!-- Input de contato -->
+<div class="div-contact-input">
+  <input type="text" placeholder="Contato">
+</div>
+
+<!-- Endereço, Telefone e Email -->
+<div class="div-info">
+  <!-- Telefone -->
+  <div class="phone">
+    <div class="icon-phone">
+      <img src="../assets/img/icones/icones_tec/smartphone-call.png" alt="phone">
+    </div>
+    <div>
+      <h3>Telefone</h3>
+      <p>(19) 99933-1919</p>
+    </div>
+  </div>
+  <!-- Email -->
+  <div class="email">
+    <div class="icon-email">
+      <img src="../assets/img/icones/icones_tec/envelope.png" alt="email">
+    </div>
+    <div>
+      <h3>E-mail</h3>
+      <p>PetCandle@gmail.com</p>
+    </div>
+  </div>
+  <!-- Endereço -->
+  <div class="address">
+    <div class="icon-address">
+      <img src="../assets/img/icones/icones_tec/pin.png" alt="address">
+    </div>
+    <div>
+      <h3>Endereço</h3>
+      <p>Rua Av. Maria Thereza Silveira de Barros Camargo, 510 - Jardim Aquarius</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="footer-center" id="footer-center">
+<div class="footer-section">
+  <div class="about-us-footer">
+    <h3>Sobre Nós</h3>
+    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book.</p>
+  </div>
+</div>
+
+<div class="footer-section">
+  <div class="home-link">
+    <h3>Home</h3>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#AboutUs">Sobre Nós</a></li>
+      <li><a href="#Services">Serviços</a></li>
+      <li><a href="#Products">Produtos</a></li>
+      <li><a href="#Promotions">Promoções</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer-section">
+  <div class="app-download">
+    <h3>Baixe nosso aplicativo!</h3>
+    <div class="download-qr-code">
+      <img src="../assets/img/qrcode.png" alt="App">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="footer-bottom">
+<h5>Copyright ©2024 PetCandle. Design by: Eduardo Sinico & Davi Pedrosa.</h5>
+</div>`;
+
+        return footerHTML;
+
+}
