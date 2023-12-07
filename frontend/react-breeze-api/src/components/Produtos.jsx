@@ -1,6 +1,8 @@
 import { catalogo, catalogoBrinquedos, catalogoVeterinario } from "../js/utilidades.js";
-import './../css/index.css';
+import './../css/componentesCSS/produtos.css';
 import CardAdote from "./subcomponents/CardAdote.jsx";
+import './../css/index.css';
+
 const Produtos = () => {
   return (
     <>

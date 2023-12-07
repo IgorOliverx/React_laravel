@@ -1,8 +1,11 @@
-import './../css/services.css';
+import './../css/componentesCSS/services.css';
 import Footer from './Footer';
+import './../css/index.css';
 
 const Servicos = () => {
     return (
+
+  
         <div>
           <img className="banner" src="../assets/img/banner/PetCandleServico.svg" alt="" />
           <header className="header">
@@ -56,7 +59,7 @@ const Servicos = () => {
             </div>
           </header>
     
-          <div className="container">
+          <div className="container-service">
             <div className="div-services-page">
               <div className="div-right-services-page">
                 <div className="title">

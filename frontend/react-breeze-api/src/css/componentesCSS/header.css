@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --padrao: "Hammersmith One", sans-serif;
+  --teste : "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  font-family: "Hammersmith One", sans-serif;
+  overflow-x: hidden;
+}
+/* ----- Navbar ----- */
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* ----- Botão do Banner ----- */
+
+.btn-banner {
+  margin-top: 20%;
+  margin-left: 10%;
+  width: auto;
+  height: 60px;
+}
+
+.btn-banner button {
+  padding: 10px 50px 10px 50px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  box-shadow: 3px 3px 15px gray;
+  background-color: #ff8e15;
+  border: 2px solid #ff8e15;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-banner button:hover {
+  transform: scale(110%);
+  background-color: white;
+  color: #ff8e15;
+}
+
+
+/* ---===MENU HAMBURGUER===--- */
+.navbar .menu-hamburguer{
+  position: absolute;
+  right: 0;
+  display: none;
+  margin-right: 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+
+.div-menu-hamburguer{
+  height: 100vh;
+  width: 300px;
+  position: fixed;
+  background-color: white;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+.container-menu-hamburguer{
+  height: 50%;
+}
+.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul{
+  display: flex;
+  flex-direction: column;
+}
+.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul a{
+  color: #ff8e15;
+}
+
+.cancelar-menu{
+  height: 30px;
+  width: 100%;
+  padding: 20px 0px 0px 20px;
+}
+.cancelar-menu img{
+  height: 100%;
+}
+
+.menu-hamburguer .hamburguer-img{
+  width: 50px;
+  cursor: pointer;
+}
+
+.navbar .menu-hamburguer:hover{
+  background-color: rgba(43, 141, 39, 0.5)
+}
+
+/* ---====Componentes do navbar-1 (logo, link, login)====--- */
+.logo-img img {
+  width: 10vh;
+  height: 11vh;
+}
+
+/* ------ links ------ */
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.links-responsive{
+  width: 35%;
+  display: block;
+}
+
+.header .navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.header .navbar .links-responsive .links ul a {
+  text-decoration: none;
+  /*color: rgb(116, 60, 60);*/ 
+  color: #ff8e15;
+  position: relative;
+}
+.navbar ul a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  /* background-color: rgb(102, 33, 33); */
+  background-color: #ff8e15;
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  transition: 0.5s;
+}
+
+.navbar ul a:hover::after {
+  width: 120%;
+  transition: 0.5s;
+}
+
+/* --login e cadastro (LINK)-- */
+.login-cad-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  color: white;
+}
+
+.login-responsive{
+  display: block;
+}
+
+.login-cad-section a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+/* -----=====Transição do Navbar */
+#navbar-scroll{
+  display: none;
+  width: 100%;
+  height: 13%;
+  animation: navbar-animation 0.5s ease-in;
+  background-color: #31ca5f;
+  z-index: 1;
+}
+
+#navbar-scroll .navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  justify-content: space-around;
+}
+
+#navbar-scroll .navbar ul a, a::after {
+  color: white;
+}
+
+#navbar-scroll .navbar .logo-img{
+  height: auto;
+
+}
+
+#navbar-scroll .links-responsive .links ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar-scroll .navbar .logo-img img{
+  width: 7vh;
+  height: 8vh;
+}
+
+#navbar-scroll .navbar .logo-img{
+  background-color: white;
+  
+}
+
+#navbar-scroll .navbar .search-box input{
+  border: 2px solid rgb(189, 189, 189);
+}
+
+
+@keyframes navbar-animation{
+  from{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*-------Search-box-----*/
+form {
+  width: 40vh;
+  position: relative;
+}
+
+.search-box{
+  display: block;
+}
+
+.search-box input {
+  width: 40vh;
+  height: 25px;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 2px;
+  padding-left: 10px;
+  display: block;
+}
+
+.search-box input::placeholder {
+  color: rgb(195, 197, 198);
+}
+
+.search-box button {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.search-box button img {
+  width: 15px;
+}
+
+/* -----=====Responsividade do NavBar====----- */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar{
+    justify-content: flex-start;
+  }
+
+  .links-responsive{
+    display: none;
+  }
+  
+  .login-responsive{
+    display: none;
+  }
+
+  .search-box{
+    display: none;
+  }
+
+  .logo-img{
+    display: none;
+  }
+
+  .navbar .menu-hamburguer{
+    display: block;
+  }
+
+  .btn-banner {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: auto;
+    height: 60px;
+  }
+  
+  .btn-banner button {
+    padding: 2px 20px 2px 20px;
+    font-weight: 400;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar{
+    justify-content: flex-start;
+  }
+
+  .links-responsive{
+    display: none;
+  }
+
+  .login-responsive{
+    display: none;
+  }
+
+  .search-box{
+    display: none;
+  }
+
+  .logo-img{
+    display: none;
+  }
+  
+  .navbar .menu-hamburguer{
+    display: block;
+  }
+
+  .btn-banner {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: auto;
+    height: 60px;
+  }
+  
+  .btn-banner button {
+    padding: 2px 20px 2px 20px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+form{
+  width: 30vh;
+  margin: 5px;
+}
+  
+  .search-box input{
+    width: 30vh;
+  }
+}

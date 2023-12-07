@@ -1,8 +1,8 @@
-import './../css/index.css';
+import './../css/componentesCSS/footer.css';
 import SocialCard from "./subcomponents/SocialIcons.jsx"; 
 import './../css/cssSubcomponents/SocialMedia.css'
 import ThreeDCard from './subcomponents/CardHover3.jsx';
-
+import './../css/index.css';
 
 const Footer = () => {
   return (

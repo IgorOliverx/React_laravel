@@ -1,3 +1,4 @@
+import './../css/componentesCSS/container.css';
 import './../css/index.css';
 
 const Container = () => {
