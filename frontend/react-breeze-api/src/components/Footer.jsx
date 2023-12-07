@@ -1,5 +1,8 @@
-import React from 'react';
-import SocialCard from "./SocialIcons.jsx"; 
+import './../css/index.css';
+import SocialCard from "./subcomponents/SocialIcons.jsx"; 
+import './../css/cssSubcomponents/SocialMedia.css'
+import ThreeDCard from './subcomponents/CardHover3.jsx';
+
 
 const Footer = () => {
   return (
@@ -71,12 +74,7 @@ const Footer = () => {
               </div>
 
               <div className="footer-section">
-                  <div className="app-download">
-                      <h3>Baixe nosso aplicativo!</h3>
-                      <div className="download-qr-code">
-                          <img src="../assets/img/qrcode.png" alt="App" />
-                      </div>
-                  </div>
+              <ThreeDCard/>
               </div>
           </div><div className="footer-bottom">
               <h5>Copyright ©2024 PetCandle. Design by: Eduardo Sinico & Davi Pedrosa.</h5>

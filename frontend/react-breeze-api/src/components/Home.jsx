@@ -1,8 +1,8 @@
-import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Container from "./Container";
 import Produtos from "./Produtos";
+import './../css/index.css';
 
 const Home = () => {
   return (

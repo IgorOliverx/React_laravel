@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Search from "./subcomponents/Search";
+import './../css/cssSubcomponents/InputSearch.css';
 
 
 
@@ -9,15 +11,15 @@ const Header = () => {
             <nav className="navbar">
 
                 {/* --==HAMBURGUER==-- */}
-                <div class="menu-hamburguer">
-                    <img class="hamburguer-img" src="../assets/img/icones/icones_tec/menu.png" alt="menu-hamburguer" />
+                <div className="menu-hamburguer">
+                    <img className="hamburguer-img" src="../assets/img/icones/icones_tec/menu.png" alt="menu-hamburguer" />
                 </div>
                 <div className="div-menu-hamburguer">
-                    <div class="container-menu-hamburguer">
+                    <div className="container-menu-hamburguer">
                         <div className="cancelar-menu">
-                            <img class="cancelar-img" src="../assets/img/icones/icones_tec/cancelar.png" alt="menu-hamburguer" />
+                            <img className="cancelar-img" src="../assets/img/icones/icones_tec/cancelar.png" alt="menu-hamburguer" />
                         </div>
-                        <div class="links-hamburguer">
+                        <div className="links-hamburguer">
                             <ul>
                                 <a href="/" className="...">Home</a>
                                 <a href="#" className="...">Produtos</a>
@@ -47,12 +49,7 @@ const Header = () => {
                         <a href="">Cadastro</a>
                     </div>
                 </div>
-                <form className="search-box">
-                    <input type="text" placeholder="Pesquisar..." />
-                    <button type="submit">
-                        <img src="../assets/img/icones/icones_tec/search-icon.png" alt="Pesquisa" />
-                    </button>
-                </form>
+                <Search/>
             </nav>
             <div id="navbar-scroll">
                 <nav className="navbar">

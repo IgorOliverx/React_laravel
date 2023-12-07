@@ -1,4 +1,6 @@
 import { catalogo, catalogoBrinquedos, catalogoVeterinario } from "../js/utilidades.js";
+import './../css/index.css';
+import CardAdote from "./subcomponents/CardAdote.jsx";
 const Produtos = () => {
   return (
     <>
@@ -208,13 +210,7 @@ const Produtos = () => {
 
       {/* Container Card 4 */}
       <div className="container-card4">
-        <button className="prevItem" id="prevItem4"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
-        <div className="slider-container">
-          <div className="div-cards-slide4" id="card-slide4">
-            {/* VAI GERAR CONTEUDO DINAMICO AQUI?? */}
-          </div>
-        </div>
-        <button className="nextItem" id="nextItem4"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+        <CardAdote/>
       </div>
     </>
   );
