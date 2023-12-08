@@ -45,6 +45,14 @@
     font-size: smaller;
     font-weight: 400;
   }
+
+  .phone div p,
+  .email div p,
+  .address div p{
+    color: black;
+    font-weight: 900;
+  }
+
   
   .icon-phone img,
   .icon-email img,
@@ -98,28 +106,6 @@
     text-decoration: none;
     color: black;
   }
-  
-  .app-download {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    height: 30vh;
-    border-radius: 30px 0px 30px 0px;
-    background-color: #4a8e4a;
-    color: white;
-  }
-  
-  .app-download .download-qr-code {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .app-download .download-qr-code img {
-    width: 50%;
-    border-radius: 4px;
-  }
-
   /* ----=====FOOTER BOTTOM=====----- */
   .footer-bottom {
     height: 13%;

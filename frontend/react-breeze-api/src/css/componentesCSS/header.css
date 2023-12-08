@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --padrao: "Hammersmith One", sans-serif;
-  --teste : "Poppins", sans-serif;
+  --teste: "Poppins", sans-serif;
 }
 .header {
   display: flex;
@@ -11,7 +11,7 @@
   width: 100vw;
   height: 100%;
   font-family: "Hammersmith One", sans-serif;
-  overflow-x: hidden;
+
 }
 /* ----- Navbar ----- */
 .navbar {
@@ -20,6 +20,7 @@
   display: flex;
   justify-content: space-around;
   padding: 15px;
+  
 }
 
 .banner {
@@ -56,55 +57,64 @@
   color: #ff8e15;
 }
 
-
 /* ---===MENU HAMBURGUER===--- */
-.navbar .menu-hamburguer{
-  position: absolute;
-  right: 0;
-  display: none;
-  margin-right: 3px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  transition: all 0.5s ease;
-}
 
-.div-menu-hamburguer{
-  height: 100vh;
-  width: 300px;
-  position: fixed;
-  background-color: white;
+.menu-hamburguer {
+  display: none;
+width: 100%;
+}
+.navbar-responsiva {
+  position: absolute;
+  z-index: 900;
   right: 0;
   top: 0;
-  z-index: 99;
-}
-.container-menu-hamburguer{
-  height: 50%;
-}
-.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul{
+  width: 300;
+  height: calc(100vh - 160px); /*removendo barra de scrolagem*/
+  padding-top: 160px;
+  background-color: aliceblue;
+  margin-right: -100%; /*esconder o navbar*/
+  transition: all 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
 }
-.div-menu-hamburguer .container-menu-hamburguer .links-hamburguer ul a{
-  color: #ff8e15;
+.menu-hamburguer .navbar-responsiva li {
+  padding: 20px 80px;
 }
-
-.cancelar-menu{
-  height: 30px;
-  width: 100%;
-  padding: 20px 0px 0px 20px;
+.menu-hamburguer a {
+  text-decoration: none;
+  color: black;
+  font-size: 15pt;
+  transition: 0.2s;
 }
-.cancelar-menu img{
-  height: 100%;
-}
-
-.menu-hamburguer .hamburguer-img{
+.linhas {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 2%;
+  margin-top: 2%;
   width: 50px;
-  cursor: pointer;
+  height: 10px;
+}
+.linhas span {
+  display: block;
+  width: 50px;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.5s;
+  background-color: white;
 }
 
-.navbar .menu-hamburguer:hover{
-  background-color: rgba(43, 141, 39, 0.5)
+#faketrigger {
+  position: absolute;
+  width: 85px;
+  height: 80px;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 
 /* ---====Componentes do navbar-1 (logo, link, login)====--- */
@@ -120,7 +130,7 @@
   align-items: center;
 }
 
-.links-responsive{
+.links-responsive {
   width: 35%;
   display: block;
 }
@@ -128,12 +138,11 @@
 .header .navbar ul {
   width: 100%;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
 }
 .header .navbar .links-responsive .links ul a {
   text-decoration: none;
-  /*color: rgb(116, 60, 60);*/ 
+  /*color: rgb(116, 60, 60);*/
   color: #ff8e15;
   position: relative;
 }
@@ -163,7 +172,7 @@
   color: white;
 }
 
-.login-responsive{
+.login-responsive {
   display: block;
 }
 
@@ -174,10 +183,14 @@
 }
 
 /* -----=====Transição do Navbar */
-#navbar-scroll{
+.navbar-container {
+  width: 100%;
+  height: 100%;
+}
+#navbar-scroll {
   display: none;
   width: 100%;
-  height: 13%;
+  height: 9.5%;
   animation: navbar-animation 0.5s ease-in;
   background-color: #31ca5f;
   z-index: 1;
@@ -186,46 +199,44 @@
 #navbar-scroll .navbar {
   display: flex;
   align-items: center;
-  margin-top: 4px;
   justify-content: space-around;
+  height: 100%;
 }
 
-#navbar-scroll .navbar ul a, a::after {
+#navbar-scroll .navbar ul a,
+a::after {
   color: white;
 }
 
-#navbar-scroll .navbar .logo-img{
+#navbar-scroll .navbar .logo-img {
   height: auto;
-
 }
 
-#navbar-scroll .links-responsive .links ul{
+#navbar-scroll .links-responsive .links ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#navbar-scroll .navbar .logo-img img{
+#navbar-scroll .navbar .logo-img img {
   width: 7vh;
   height: 8vh;
 }
 
-#navbar-scroll .navbar .logo-img{
+#navbar-scroll .navbar .logo-img {
   background-color: white;
-  
 }
 
-#navbar-scroll .navbar .search-box input{
+#navbar-scroll .navbar .search-box input {
   border: 2px solid rgb(189, 189, 189);
 }
 
-
-@keyframes navbar-animation{
-  from{
+@keyframes navbar-animation {
+  from {
     opacity: 0;
     transform: translateY(-50px);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateY(0px);
   }
@@ -237,7 +248,7 @@ form {
   position: relative;
 }
 
-.search-box{
+.search-box {
   display: block;
 }
 
@@ -269,7 +280,6 @@ form {
   cursor: pointer;
 }
 
-
 input:focus,
 button:focus {
   outline: none;
@@ -280,90 +290,34 @@ button:focus {
 }
 
 /* -----=====Responsividade do NavBar====----- */
-@media (min-width: 320px) and (max-width: 480px) {
-  .navbar{
-    justify-content: flex-start;
-  }
-
-  .links-responsive{
-    display: none;
-  }
-  
-  .login-responsive{
+@media (max-width: 880px) {
+  .login-responsive,
+  .links-responsive {
     display: none;
   }
 
-  .search-box{
-    display: none;
-  }
-
-  .logo-img{
-    display: none;
-  }
-
-  .navbar .menu-hamburguer{
+  .menu-hamburguer {
     display: block;
+    top: 0px;
+    float: right;
+    height: 100vh;
   }
+  #faketrigger:checked ~ .linhas span {
+    background-color: #ff8e15;
+  }
+  #faketrigger:checked ~ .linhas span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.25);
+  } 
+  #faketrigger:checked ~ .linhas span:nth-child(2){
+    opacity: 0;
+  } 
+  #faketrigger:checked ~ .linhas span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.25);
+   } 
+   #faketrigger:checked ~ .navbar-responsiva{
+    margin-right: 0;
+   }
 
-  .btn-banner {
-    margin-top: 15%;
-    margin-left: 5%;
-    width: auto;
-    height: 60px;
-  }
-  
-  .btn-banner button {
-    padding: 2px 20px 2px 20px;
-    font-weight: 400;
-  }
-  
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .navbar{
-    justify-content: flex-start;
-  }
-
-  .links-responsive{
-    display: none;
-  }
-
-  .login-responsive{
-    display: none;
-  }
-
-  .search-box{
-    display: none;
-  }
-
-  .logo-img{
-    display: none;
-  }
-  
-  .navbar .menu-hamburguer{
-    display: block;
-  }
-
-  .btn-banner {
-    margin-top: 15%;
-    margin-left: 5%;
-    width: auto;
-    height: 60px;
-  }
-  
-  .btn-banner button {
-    padding: 2px 20px 2px 20px;
-    font-weight: 400;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-form{
-  width: 30vh;
-  margin: 5px;
-}
-  
-  .search-box input{
-    width: 30vh;
-  }
 }

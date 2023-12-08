@@ -266,15 +266,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
+  gap: 2em;
   }
   
-  .services-section .services-top {
+  .services-section .services-top,  .services-section .services-bottom {
     display: flex;
-  }
-  
-  .services-section .services-bottom {
-    display: flex;
+    gap: 2em;
   }
   
   .div-right-services .title {
@@ -286,6 +283,7 @@
   .div-left-services {
     justify-content: center;
     align-items: center;
+    width: 40%;
   }
   
   .service-div-img{
@@ -297,14 +295,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     border-radius: 15vh;
     padding: 5px;
   }
   
   .service-icon img {
-    height: 40px;
+    height: 30px;
   }
   
   .service-card {
@@ -321,13 +319,20 @@
   .service-card .service-info{
     display: flex;
     flex-direction: column;
+   gap: 2em;
     width: 100%;
   }
   
   .service-card .service-info h1{
+    height: 30px;
     font-size: 25px;
+    margin: 0;
   }
   
   .service-card .service-info p{
+    height: 70px;
     font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #161616;
   }

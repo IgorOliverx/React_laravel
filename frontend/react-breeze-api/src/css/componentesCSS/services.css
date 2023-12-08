@@ -83,7 +83,7 @@
   align-items: center;
 }
 
-.service-icon {
+.services-icon {
     background-color: #24b624;
     display: flex;
     justify-content: center;
@@ -94,18 +94,18 @@
     padding: 5px;
   }
   
-  .service-icon img {
+  .services-icon img {
     height: 30px;
   }
 
-  .service-info {
+  .services-info {
     width: 20vh;
     display: flex;
     justify-content: start;
     padding: 5px
   }
 
-  .service-info h2, p{
+  .services-info h2, p{
     font-size: smaller;
   }
 

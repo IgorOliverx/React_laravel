@@ -78,10 +78,10 @@ const Servicos = () => {
                 </div>
                 <div className="services-category">
                   <div className="service-card">
-                    <div className="service-icon">
+                    <div className="services-icon">
                       <img src="../assets/img/icones/banheira-de-bebe.png" alt="service icon" />
                     </div>
-                    <div className="service-info">
+                    <div className="services-info">
                       <h2>Banho e Tosa</h2>
                     </div>
                   </div>
