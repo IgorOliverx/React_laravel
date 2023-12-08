@@ -5,7 +5,8 @@ import HeaderLogin from "./subcomponents/HeaderLogin.jsx";
 import Footer from "./Footer.jsx";
 import "./../css/index.css";
 import "./../css/componentesCSS/login.css";
-import './../../assets/img/banner/imagem-Login-teste.png';
+import "./../../assets/img/banner/imagem-Login.png";
+
 
 const Login = () => {
   // Inicialização dos estados para armazenar o email, a senha e a função de navegação
@@ -45,7 +46,7 @@ const Login = () => {
           {/* --==imagem==-- */}
           <div className="container-img-login">
             <div className="img-login">
-              <img src="./../../assets/img/banner/imagem-Login-teste.png" alt="" />
+              <img src= "./../../assets/img/banner/imagem-Login.png" alt="" />
             </div>
           </div>
 
