@@ -34,48 +34,23 @@ const Login = () => {
     }
 
     return (
-        <section className="bg-[#F4F7FF] py-20 lg:py-[120px]">
-            <div className="container mx-auto">
-                <div className="-mx-4 flex flex-wrap">
-                    <div className="w-full px-4">
+        <section className="">
+            <div className="">
+                <div className="">
+                    <div className="">
                         <div
-                            className="
-                  relative
-                  mx-auto
-                  max-w-[525px]
-                  overflow-hidden
-                  rounded-lg
-                  bg-white
-                  py-16
-                  px-10
-                  text-center
-                  sm:px-12
-                  md:px-[60px]
-                "
+                            className=" "
                         >
-                            <div className="mb-10 text-center md:mb-16">Laraveller</div>
+                            <div className="">Laraveller</div>
                             <form onSubmit={handleLogin}>
                                 {/* Campo de input para o email */}
-                                <div className="mb-4">
+                                <div className="">
                                     <input
                                         type="email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                         placeholder="Email"
-                                        className="
-                        bordder-[#E9EDF4]
-                        w-full
-                        rounded-md
-                        border
-                        bg-[#FCFDFE]
-                        py-3
-                        px-5
-                        text-base text-body-color
-                        placeholder-[#ACB6BE]
-                        outline-none
-                        focus:border-primary
-                        focus-visible:shadow-none
-                      "
+                                        className=""
                                     />
                                     {/* Campo para exibir mensagem de erro, se necessário */}
                                     <div className="flex">
@@ -89,39 +64,18 @@ const Login = () => {
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
                                         placeholder="Password"
-                                        className="
-                        bordder-[#E9EDF4]
-                        w-full
-                        rounded-md
-                        border
-                        bg-[#FCFDFE]
-                        py-3
-                        px-5
-                        text-base text-body-color
-                        placeholder-[#ACB6BE]
-                        outline-none
-                        focus:border-primary
-                        focus-visible:shadow-none
-                      "
+                                        className=""
                                     />
                                     {/* Campo para exibir mensagem de erro, se necessário */}
                                     <div className="flex">
-                                        <span className="text-red-400 text-sm m-2 p-2">error</span>
+                                        <span className="">error</span>
                                     </div>
                                 </div>
                                 {/* Botão para enviar o formulário de login */}
-                                <div className="mb-10">
+                                <div className="">
                                     <button
                                         type="submit"
-                                        className="
-                        w-full
-                        px-4
-                        py-3
-                        bg-indigo-500
-                        hover:bg-indigo-700
-                        rounded-md
-                        text-white
-                      "
+                                        className=""
                                     >
                                         Login
                                     </button>
@@ -130,17 +84,12 @@ const Login = () => {
                             {/* Link para a página de redefinição de senha */}
                             <Link
                                 to="/forgot-password"
-                                className="
-                  mb-2
-                  inline-block
-                  text-base text-[#adadad]
-                  hover:text-primary hover:underline
-                "
+                                className=""
                             >
                                 Forgot Password?
                             </Link>
                             {/* Texto para o caso de o usuário não ser um membro */}
-                            <p className="text-base text-[#adadad]">
+                            <p className="">
                                 Not a member yet?
                                 {/* Link para a página de registro */}
                                 <Link to="/register" className="text-primary hover:underline">
