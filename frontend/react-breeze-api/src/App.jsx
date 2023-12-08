@@ -6,6 +6,7 @@ import Register from "./components/Register.jsx";
  import Servicos from "./components/Servicos.jsx"
  import LandPage from "./components/LandPage.jsx"
 import '../src/css/index.css';
+import Agendamento from "./components/Agendamento.jsx";
 
 function App(){
     const [currentPosition, setCurrentPosition] = useState(0);
@@ -48,7 +49,7 @@ function App(){
                     <Route path="/cadastro" element={<Register />} />
                     <Route path="/servicos" element={<Servicos />} />
                     <Route path="/teste" element={<LandPage />} />
-                    
+                    <Route path="/agendamento" element={<Agendamento/>} />
                 </Routes>
             </div>
         

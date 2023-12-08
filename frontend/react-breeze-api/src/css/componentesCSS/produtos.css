@@ -300,10 +300,18 @@
   transition: all 0.2s ease-in-out;
 }
 
+.organizacaoCardAdote{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .prevItem:hover,
 .nextItem:hover {
   background-color: rgba(150, 150, 150, 0.5);
 }
+
+
 
 /* -----===RESPONSIVIDADE===---- */
 /* Adicione media queries conforme necessário */
