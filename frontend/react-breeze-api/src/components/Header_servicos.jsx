@@ -12,16 +12,16 @@ const Header = () => {
         {/* Navbar e Botão */}
 
         <nav className="navbar">
-          
+
           <div className="logo-img">
             <img src="../assets/img/logo/petcandle-logo.png" alt="logo" />
           </div>
           <div className="links-responsive">
             <div className="links">
               <ul>
-                <a href="/" className="...">
+                <Link to="/" className="...">
                   Home
-                </a>
+                </Link>
                 <a href="#" className="...">
                   Produtos
                 </a>
@@ -40,7 +40,7 @@ const Header = () => {
             </div>
           </div>
           <Search />
-{/* --==HAMBURGUER==-- */}
+          {/* --==HAMBURGUER==-- */}
           {/* <div className="menu-hamburguer">
                     <img className="hamburguer-img" src="../assets/img/icones/icones_tec/menu.png" alt="menu-hamburguer" />
                 </div>
@@ -68,11 +68,11 @@ const Header = () => {
             </div>
 
             <ul className="navbar-responsiva">
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Produtos</li>
-                <li><a href="#"></a>Serviços</li>
-                <li><a href="#"></a>Sobre Nós</li>
-                <li><a href="#"></a>Login/Cadastro</li>
+              <li><Link to="/" className="...">Home</Link></li>
+              <li><a href="#"></a>Produtos</li>
+              <li><Link to="/servicos" className="...">Serviços</Link></li>
+              <li><a href="#"></a>Sobre Nós</li>
+              <li><a href="#"></a>Login/Cadastro</li>
             </ul>
           </div>
 

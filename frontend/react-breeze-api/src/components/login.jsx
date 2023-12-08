@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "../api/axios";
 import './../css/index.css';
 
+
 const Login = () => {
     // Inicialização dos estados para armazenar o email, a senha e a função de navegação
     const [email, setEmail] = useState("");

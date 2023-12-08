@@ -130,6 +130,8 @@ p {
   outline-offset: -5px;
 }
 
+
+
 @media (any-hover: hover) and (any-pointer: fine) {
   .card__content {
     transform: translateY(62%);
