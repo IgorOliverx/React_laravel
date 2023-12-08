@@ -5,6 +5,8 @@ import Produtos from "./Produtos";
 import './../css/index.css';
 
 
+
+
 const Home = () => {
   return (
     <>
@@ -25,6 +27,7 @@ const Home = () => {
        <Footer  />
       </footer>
 
+      <script src="./../js/Container.js"></script>
     </>
   );
 };

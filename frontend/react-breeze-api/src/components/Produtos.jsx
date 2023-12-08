@@ -2,8 +2,56 @@ import { catalogo, catalogoBrinquedos, catalogoVeterinario } from "../js/utilida
 import './../css/componentesCSS/produtos.css';
 import CardAdote from "./subcomponents/CardAdote.jsx";
 import './../css/index.css';
+import { useState } from "react";
 
 const Produtos = () => {
+
+const [currentPosition, setCurrentPosition] = useState(0);
+
+const [currentPosition2, setCurrentPosition2] = useState(0);
+const [currentPosition3, setCurrentPosition3] = useState(0);
+
+const moveSlide = (direction) => {
+  const cardWidth = 240;
+  const newPosition = currentPosition + direction * cardWidth;
+  setCurrentPosition(newPosition);
+};
+
+const moveSlide2 = (direction) => {
+  const cardWidth = 240;
+  const newPosition = currentPosition2 + direction * cardWidth;
+  setCurrentPosition2(newPosition);
+};
+
+const moveSlide3 = (direction) => {
+  const cardWidth = 240;
+  const newPosition = currentPosition3 + direction * cardWidth;
+  setCurrentPosition3(newPosition);
+};
+
+const handlePrevBtnClick = () => {
+  moveSlide(-1); // Move para a direita
+};
+
+const handleNextBtnClick = () => {
+  moveSlide(1); // Move para a esquerda
+};
+
+const handlePrevBtnClick2 = () => {
+  moveSlide2(-1); // Move para a direita
+};
+
+const handleNextBtnClick2 = () => {
+  moveSlide2(1); // Move para a esquerda
+};
+const handlePrevBtnClick3 = () => {
+  moveSlide3(-1); // Move para a direita
+};
+
+const handleNextBtnClick3 = () => {
+  moveSlide3(1); // Move para a esquerda
+};
+
   return (
     <>
       <div className="title">
@@ -19,9 +67,9 @@ const Produtos = () => {
       </div>
       {/* Container Card 1 */}
       <div className="container-card1" id="container-card1">
-        <button className="prevItem" id="prevItem"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <button className="prevItem" id="prevItem" onClick={handlePrevBtnClick}><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
         <div className="slider-container">
-          <div className="div-cards-slide" id="card-slide">
+          <div className="div-cards-slide" id="card-slide" style={{transform: `translateX(${-currentPosition}px)`}}>
             {/* CONTEUDO ESTÁ SENDO GERADO AQUI */}
 
            {/* Iterando sobre as propriedades do catalogo */}
@@ -70,7 +118,7 @@ const Produtos = () => {
           ))}
           </div>
         </div>
-        <button className="nextItem" id="nextItem"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+        <button className="nextItem" id="nextItem" onClick={handleNextBtnClick}><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
       </div>
 
 
@@ -87,9 +135,9 @@ const Produtos = () => {
 
       {/* Container Card 2 */}
       <div className="container-card2">
-        <button className="prevItem" id="prevItem2"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <button className="prevItem" id="prevItem2" onClick={handlePrevBtnClick2}><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
         <div className="slider-container">
-          <div className="div-cards-slide2" id="card-slide2">
+          <div className="div-cards-slide2" id="card-slide2" style={{transform: `translateX(${-currentPosition2}px)`}}>
             {/* GERAR CONTEUDO AQUI */}
             {catalogoVeterinario.map((produto) => (
             <div className="product-card" key={produto.id}>
@@ -135,7 +183,7 @@ const Produtos = () => {
           ))}
           </div>
         </div>
-        <button className="nextItem" id="nextItem2"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+        <button className="nextItem" id="nextItem2" onClick={handleNextBtnClick2}><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
       </div>
 
 
@@ -148,9 +196,9 @@ const Produtos = () => {
 
       {/* Container Card 3 */}
       <div className="container-card3">
-        <button className="prevItem" id="prevItem3"><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
+        <button className="prevItem" id="prevItem3" onClick={handlePrevBtnClick3}><img src="../assets/img/icones/icones_tec/arrows-left.svg" alt="Seta" /></button>
         <div className="slider-container">
-          <div className="div-cards-slide3" id="card-slide3">
+          <div className="div-cards-slide3" id="card-slide3" style={{transform: `translateX(${-currentPosition3}px)`}}>
 
             {/* GERANDO CONTEUDO AQUI */}
 
@@ -198,7 +246,7 @@ const Produtos = () => {
           ))}
           </div>
         </div>
-        <button className="nextItem" id="nextItem3"><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
+        <button className="nextItem" id="nextItem3" onClick={handleNextBtnClick3}><img src="../assets/img/icones/icones_tec/arrows-right.svg" alt="Seta" /></button>
       </div>
 
 

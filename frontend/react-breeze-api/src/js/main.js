@@ -85,10 +85,10 @@ BtnVisao.addEventListener("click", () => {
   }
   
   prevBtn.addEventListener('click', () => {
-    moveSlide(-1); // Move para a direita
+    moveSlide(-1); 
   });
   nextBtn.addEventListener('click', () => {
-  moveSlide(1); // Move para a esquerda
+  moveSlide(1); 
 });
 
 //----------=========CARROSSEL 2===========--------
@@ -97,18 +97,18 @@ var nextBtn2 = document.getElementById('nextItem2');
 var slide2 = document.getElementById('card-slide2');
 function moveSlide2(direction) {
   
-  var cardWidth = 240; // 200px card width
+  var cardWidth = 200; // 200px card width
   currentPosition += direction * cardWidth;
   slide2.style.transform = `translateX(${-currentPosition}px)`;
 }
 
 prevBtn2.addEventListener('click', () => {
-  moveSlide2(-1); // Move para a direita
+  moveSlide2(-1); 
   
 });
 
 nextBtn2.addEventListener('click', () => {
-  moveSlide2(1); // Move para a esquerda
+  moveSlide2(1); 
 });
 
 //----------=========CARROSSEL 3===========--------
@@ -123,12 +123,12 @@ function moveSlide3(direction) {
 }
 
 prevBtn3.addEventListener('click', () => {
-  moveSlide3(-1); // Move para a direita
+  moveSlide3(-1); 
   
 });
 
 nextBtn3.addEventListener('click', () => {
-  moveSlide3(1); // Move para a esquerda
+  moveSlide3(1); 
 });
 
 //----------=========CARROSSEL 4===========--------
@@ -143,12 +143,12 @@ function moveSlide4(direction) {
 }
 
 prevBtn4.addEventListener('click', () => {
-  moveSlide4(-1); // Move para a direita
+  moveSlide4(-1); 
   
 });
 
 nextBtn4.addEventListener('click', () => {
-  moveSlide4(1); // Move para a esquerda
+  moveSlide4(1); 
 });
 
 

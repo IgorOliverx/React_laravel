@@ -32,24 +32,11 @@ function App(){
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  },[]);
 
-  const handleBtnMissaoClick = () => {
-    // Your BtnMissao click logic here
-  };
+  
 
-  const handleBtnVisaoClick = () => {
-    // Your BtnVisao click logic here
-  };
-
-  const moveSlide = (direction, slideId) => {
-    // Your moveSlide logic here based on the direction and slideId
-    // Remember to use React state to update currentPosition
-  };
-
-  const scrollToSection = (sectionId) => {
-    // Your scrollToSection logic here
-  };
+  
 
     return (
        
