@@ -15,18 +15,47 @@ const moveSlide = (direction) => {
   const cardWidth = 240;
   const newPosition = currentPosition + direction * cardWidth;
   setCurrentPosition(newPosition);
+
+
+  if(newPosition <= 0){
+    setCurrentPosition(0);
+  }else if (newPosition >= (catalogo.length - 3) * cardWidth){
+    setCurrentPosition((catalogo.length - 3) * cardWidth)
+  }else {
+    setCurrentPosition(newPosition);
+  }
 };
 
 const moveSlide2 = (direction) => {
   const cardWidth = 240;
   const newPosition = currentPosition2 + direction * cardWidth;
   setCurrentPosition2(newPosition);
+
+
+
+  if(newPosition <= 0 ){
+    setCurrentPosition2(0);
+  }else if(newPosition >= (catalogoVeterinario.length - 3) * cardWidth){
+    setCurrentPosition2((catalogoVeterinario.length - 3) * cardWidth)
+  }else {
+    setCurrentPosition2(newPosition);
+  };
+
 };
 
 const moveSlide3 = (direction) => {
   const cardWidth = 240;
   const newPosition = currentPosition3 + direction * cardWidth;
   setCurrentPosition3(newPosition);
+
+
+  if(newPosition <= 0 ){
+    setCurrentPosition3(0);
+  }else if(newPosition >= (catalogoBrinquedos.length - 3) * cardWidth){
+    setCurrentPosition3((catalogoBrinquedos.length - 3) * cardWidth)
+  }else {
+    setCurrentPosition3(newPosition);
+  };
 };
 
 const handlePrevBtnClick = () => {

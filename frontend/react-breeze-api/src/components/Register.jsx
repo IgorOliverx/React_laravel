@@ -73,7 +73,7 @@ const Register = () => {
                   
                                     />
                                     <div className="flex">
-                                        <span className="text-red-400 text-sm m-2 p-2">error</span>
+                                        <span className="">error</span>
                                     </div>
                                 </div>
                                 <div className="mb-4">
@@ -86,12 +86,12 @@ const Register = () => {
                    
                   "
                                     />
-                                    <div className="flex">
-                                        <span className="text-red-400 text-sm m-2 p-2">error</span>
+                                    <div className="">
+                                        <span className="">error</span>
                                     </div>
                                 </div>
                                 <div className="mb-10">
-                                    <button type="submit" className="w-full px-4 py-3 bg-indigo-500 hover:bg-indigo-700 rounded-md text-white">
+                                    <button type="submit" className="">
                                         Registrar
                                     </button>
                                 </div>
@@ -104,9 +104,9 @@ const Register = () => {
                             >
                                 Forgot Password?
                             </Link>
-                            <p className="text-base text-[#adadad]">
+                            <p className="">
                                 Not a member yet?
-                                <Link to="/register" className="text-primary hover:underline">
+                                <Link to="/register" className="">
                                     Sign Up
                                 </Link>
                             </p>
