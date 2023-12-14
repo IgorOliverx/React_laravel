@@ -22,7 +22,7 @@ const Footer = () => {
                   <div className="icon-phone">
                       <img src="../assets/img/icones/icones_tec/smartphone-call.png" alt="phone" />
                   </div>
-                  <div>
+                  <div className="info-text">
                       <h3>Telefone</h3>
                       <p>(19) 99933-1919</p>
                   </div>
@@ -32,35 +32,25 @@ const Footer = () => {
                   <div className="icon-email">
                       <img src="../assets/img/icones/icones_tec/envelope.png" alt="email" />
                   </div>
-                  <div>
+                  <div className="info-text">
                       <h3>E-mail</h3>
                       <p>PetCandle@gmail.com</p>
                   </div>
               </div>
-              {/* Endereço */}
-              <div className="address">
-                  <div className="icon-address">
-                      <img src="../assets/img/icones/icones_tec/pin.png" alt="address" />
-                  </div>
-                  <div>
-                      <h3>Endereço</h3>
-                      <p>Rua Av. Maria Thereza Silveira de Barros Camargo, 510 - Jardim Aquarius</p>
-                  </div>
-              </div>
+            
           </div>
       </div><div className="footer-center" id="footer-center">
-              <div className="footer-section">
+              <div className="footer-section-1">
                   <div className="about-us-footer">
                       <h3>Sobre Nós</h3>
                       <p>
                           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                          industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
+                          industrys standard dummy text ever since the 1500
                       </p>
                   </div>
               </div>
 
-              <div className="footer-section">
+              <div className="footer-section-2">
                   <div className="home-link">
                       <h3>Home</h3>
                       <ul>
@@ -73,7 +63,7 @@ const Footer = () => {
                   </div>
               </div>
 
-              <div className="footer-section">
+              <div className="footer-section-app">
               <ThreeDCard/>
               </div>
           </div><div className="footer-bottom">

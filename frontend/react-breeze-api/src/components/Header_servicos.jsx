@@ -36,7 +36,11 @@ const Header = () => {
           </div>
           <div className="login-responsive">
             <div className="login-cad-section">
-              <a href="">Login</a> |<a href="">Cadastro</a>
+              <Link to="/login" className="...">
+                Login
+              </Link> |<Link to="/cadastro" className="...">
+                Cadastro
+              </Link>
             </div>
           </div>
           <Search />

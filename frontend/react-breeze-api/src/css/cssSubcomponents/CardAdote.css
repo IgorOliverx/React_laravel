@@ -123,6 +123,7 @@ p {
   font-family: var(--font-title);
   font-size: 1.125rem;
   color: var(--black);
+  cursor: pointer;
 }
 
 .card__button:focus {

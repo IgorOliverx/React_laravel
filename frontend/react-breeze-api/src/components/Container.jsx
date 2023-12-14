@@ -17,7 +17,7 @@ const Container = () => {
   };
 
   const handleBtnVisaoClick = () => {
-    setDivBackgroundColor('rgb(18, 78, 41)'); 
+    setDivBackgroundColor('rgb(18, 78, 41)');
     setTextMissaoVisible(false);
     setTextVisaoVisible(true);
   };
@@ -42,25 +42,25 @@ const Container = () => {
       <div className="container">
         {/* SERVIÇOS */}
         <section className="Servicos">
-        <div className="div-cards">
-          <div className="card-rectangle" style={{ backgroundColor: '#2eaf49' }} onClick={() => handleBtnClick('cat-food')}>
-            <img src="../assets/img/icones/comida.png" alt="" />
-            <span>Rações</span>
+          <div className="div-cards">
+            <div className="card-rectangle" style={{ backgroundColor: '#2eaf49' }} onClick={() => handleBtnClick('cat-food')}>
+              <img src="../assets/img/icones/comida.png" alt="" />
+              <span>Rações</span>
+            </div>
+            <div className="card-rectangle" style={{ backgroundColor: '#e0e0e0' }} onClick={() => handleBtnClick('cat-doc')}>
+              <img src="../assets/img/icones/veterinario.png" alt="" />
+              <span>Veterinário</span>
+            </div>
+            <div className="card-rectangle" style={{ backgroundColor: '#4a61a8' }} onClick={() => handleBtnClick('cat-toys')}>
+              <img src="../assets/img/icones/Brinquedos.png" alt="" />
+              <span>Brinquedos</span>
+            </div>
+            <div className="card-rectangle" style={{ backgroundColor: '#ffcc4a' }} onClick={() => handleBtnClick('cat-pet')}>
+              <img src="../assets/img/icones/gatinho.png" alt="" />
+              <span>Adote seu Pet</span>
+            </div>
           </div>
-          <div className="card-rectangle" style={{ backgroundColor: '#e0e0e0' }} onClick={() => handleBtnClick('cat-doc')}>
-            <img src="../assets/img/icones/veterinario.png" alt="" />
-            <span>Veterinário</span>
-          </div>
-          <div className="card-rectangle" style={{ backgroundColor: '#4a61a8' }} onClick={() => handleBtnClick('cat-toys')}>
-            <img src="../assets/img/icones/Brinquedos.png" alt="" />
-            <span>Brinquedos</span>
-          </div>
-          <div className="card-rectangle" style={{ backgroundColor: '#ffcc4a' }} onClick={() => handleBtnClick('cat-pet')}>
-            <img src="../assets/img/icones/gatinho.png" alt="" />
-            <span>Adote seu Pet</span>
-          </div>
-        </div>
-      </section>
+        </section>
 
         <div className="div-about-us" id="AboutUs">
           <div className="container-about-us">
@@ -74,7 +74,7 @@ const Container = () => {
                   Bem-vindo à nossa pet shop, nascida do sonho de três jovens em Limeira. Nosso compromisso é oferecer o melhor para seu pet, priorizando qualidade, carinho e bem-estar. Estamos aqui para fazer parte da história do seu fiel companheiro
                 </p>
               </div>
-              <div className="Nossa-Missao-Visao"style={{ backgroundColor: divBackgroundColor }}>
+              <div className="Nossa-Missao-Visao" style={{ backgroundColor: divBackgroundColor }}>
                 <div className="btn-M-V">
                   <button className=" btn-Missao" id="btn-Missao" onClick={handleBtnMissaoClick} >Nossa Missão</button>
                   <button className="btn-Visao" id="btn-Visao" onClick={handleBtnVisaoClick}>Nossa Visão</button>
@@ -89,11 +89,10 @@ const Container = () => {
                 </div>
               </div>
             </div>
-
-            <div className="div-right-about-us"> </div>
             <div className="testeAqui">
               <img src="/assets/img/a.png" alt="" />
             </div>
+
 
           </div>
         </div>

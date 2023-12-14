@@ -17,7 +17,7 @@ const CardAdote = () => {
         <div className="card__content--container flow">
           <h2 className="card__title">Ragnar</h2>
           <p className="card__description">
-            Adota o cachorro ai pô
+            Um cachorro muito esperto!
           </p>
         </div>
         <button className="card__button">Adote este Pet!</button>
@@ -35,7 +35,7 @@ const CardAdote = () => {
        <div className="card__content--container flow">
          <h2 className="card__title">Candle</h2>
          <p className="card__description">
-           Adota o cachorro ai pô
+           Uma gata muito sapeca! 
          </p>
        </div>
        <button className="card__button">Adote este Pet!</button>
@@ -53,7 +53,7 @@ const CardAdote = () => {
       <div className="card__content--container flow">
         <h2 className="card__title">Gepeto</h2>
         <p className="card__description">
-          Adota o cachorro ai pô
+          Uma tartaruga de águas marinhas muito brincalhona!
         </p>
       </div>
       <button className="card__button">Adote este Pet!</button>

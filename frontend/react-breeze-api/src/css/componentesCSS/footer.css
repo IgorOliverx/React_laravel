@@ -2,117 +2,192 @@
 
 :root {
   --padrao: "Hammersmith One", sans-serif;
-  --teste : "Poppins", sans-serif;
+  --teste: "Poppins", sans-serif;
 }
+
 /* ----=====FOOTER=====----- */
 .footer {
-    margin-top: 15vh;
-    height: 65vh;
-    width: 100%;
-    background-color: #FDF9F4;
-    display: flex;
-    flex-direction: column;
-    font-family: var(--padrao);
-  }
-    
-  
-  
-  /* ----=====FOOTER TOP=====----- */
-  
-  
-  .footer-top {
-    height: 17%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .social-midia-bottom {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .social-midia-bottom img {
-    width: 30px;
-  }
-  
-  .div-info,
-  .phone,
-  .email,
-  .address {
-    display: flex;
+  margin-top: 15vh;
+  height: 65vh;
+  width: 100%;
+  background-color: #FDF9F4;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--padrao);
+}
+
+
+
+/* ----=====FOOTER TOP=====----- */
+
+
+.footer-top {
+  height: 17%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-midia-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-midia-bottom img {
+  width: 30px;
+}
+
+.div-info {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 100%;
+}
+
+.info-text h3 {
+  margin: 0%;
+}
+
+.phone,
+.email {
+  display: flex;
+  font-size: 10px;
+
+}
+
+.phone div p,
+.email div p,
+.address div p {
+  color: black;
+  font-weight: 900;
+}
+
+
+.icon-phone img,
+.icon-email img,
+.icon-address img {
+  width: 30px;
+  margin: 5px
+}
+
+.div-contact-input input {
+  width: 42vh;
+  height: 25px;
+  border-radius: 40px;
+  background-color: white;
+  border: 0.5px solid;
+  outline: none;
+  padding: 2px;
+  padding-left: 10px;
+}
+
+
+/* ----=====FOOTER CENTER=====----- */
+.footer-center {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(160, 225, 160);
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+/* ----------------------- */
+.footer-center .footer-section-1,
+.footer-section-2 {
+  width: 30%;
+  height: 200px;
+  box-shadow: 10px 1px 10px 1px rgba(69, 137, 63, 0.463);
+  background-color: #FDF9F4;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.about-us-footer {
+  text-align: center;
+}
+
+.about-us-footer h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-us-footer p {
+  font-family: var(--padrao);
+  color: rgb(83, 62, 62);
+
+}
+
+/* ------------------ */
+
+.home-link h3 {
+  text-align: center;
+}
+
+.footer-center .footer-section-2 p,
+.footer-section-2 p {
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.footer-center .footer-section-1 a,
+.footer-center .footer-section-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----=====FOOTER BOTTOM=====----- */
+.footer-bottom {
+  height: 13%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Responsividade */
+@media (max-width:1010px) {
+
+  .footer-center .footer-section-1 p,
+  .footer-center .footer-section-2 p {
     font-size: smaller;
-    font-weight: 400;
   }
 
-  .phone div p,
-  .email div p,
-  .address div p{
-    color: black;
-    font-weight: 900;
+  .info-text p {
+    font-size: 100%;
+  }
+}
+
+@media (max-width:870px) {
+
+  .icon-email,
+  .icon-phone {
+    display: none;
   }
 
-  
-  .icon-phone img,
-  .icon-email img,
-  .icon-address img {
-    width: 30px;
-    margin: 5px
+}
+
+@media (max-width:740px) {
+  .div-info {
+    display: none;
   }
-  
-  .div-contact-input input {
-    width: 42vh;
-    height: 25px;
-    border-radius: 40px;
-    background-color: white;
-    border: 0.5px solid;
-    outline: none;
-    padding: 2px;
-    padding-left: 10px;
+
+}
+
+@media (max-width:600px) {
+  .footer-section-1 {
+    display: none;
   }
-  
-  
-  /* ----=====FOOTER CENTER=====----- */
-  .footer-center {
-    height: 66%;
-    width: 100%;
-    background-color: rgb(160, 225, 160);
-    margin: 10px 0px 0px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-  }
-  
-  .footer-center .footer-section {
-    width: 20%;
-  }
-  
-  .about-us-footer {
-    text-align: center;
-  }
-  
-  .home-link h3 {
-    text-align: center;
-  }
-  
-  .footer-center .footer-section p {
-    text-indent: 15px;
-    text-align: justify;
-  }
-  
-  .footer-center .footer-section a {
-    text-decoration: none;
-    color: black;
-  }
-  /* ----=====FOOTER BOTTOM=====----- */
-  .footer-bottom {
-    height: 13%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 100;
-    font-style: normal;
-  }
+
+}
