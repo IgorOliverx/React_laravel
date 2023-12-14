@@ -16,18 +16,21 @@ body {
   justify-content: center;
 }
 .container-login {
-  width: 90%;
-  height: 500px;
+  width: 70%;
+  height: 60%;
   display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px 0px grey;
 }
-.container-login .container-img-login {
-  width: 60%;
+
+.container-login .container-img-login,
+.container-login .container-img-login  img {
+  width: 100%;
   height: 100%;
-}
-.container-login .container-img-login .img-login {
-  width: 80%;
-  height: 100%;
-  background-color: #31ca5f;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px grey;
 }
 .container-login .section-form {
   width: -webkit-fill-available;
@@ -50,8 +53,7 @@ body {
 }
 .section-form .login-form form {
   width: 100%;
-  height: 50%;
-
+  height: 60%;
 }
 .div-email,
 .div-senha {
@@ -67,21 +69,22 @@ body {
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: solid 3px #fdb569;
+  border-bottom: solid 3px #213c68;
 }
-.button-div{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.button-div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 .section-form .login-form form .button-div button {
-  padding: 10px 130px 10px 130px;
+  width: 70%;
+  height: 35px;
   border: none;
   border-radius: 10px;
   font-weight: 700;
   box-shadow: 3px 3px 15px gray;
-  background-color: #ff8e15;
-  border: 2px solid #ff8e15;
+  background-color: #132542;
+  border: 2px solid #314c79;
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -89,5 +92,30 @@ body {
 .section-form .login-form form .button-div button:hover {
   transform: scale(110%);
   background-color: white;
-  color: #ff8e15;
+  color: #a10000;
+}
+
+.section-form .login-form .signUpButtonLogin{
+  gap: 2em;
+  color: #132542;
+}
+.section-form .login-form .signUpButtonLogin img{
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Responsividade Login */
+@media (max-width: 950px){
+  .container-login .container-img-login, .container-login .container-img-login img {
+    display: none;
+}}
+@media (max-width: 705px){
+  .container-login{
+    width: 50%;
+  }
+}
+@media (max-width: 500px){
+  .container-login{
+    width: 40%;
+  }
 }

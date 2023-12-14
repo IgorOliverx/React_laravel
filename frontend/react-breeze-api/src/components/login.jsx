@@ -5,7 +5,7 @@ import HeaderLogin from "./subcomponents/HeaderLogin.jsx";
 import Footer from "./Footer.jsx";
 import "./../css/index.css";
 import "./../css/componentesCSS/login.css";
-import "./../../assets/img/banner/imagem-Login.png";
+//  import "./../../assets/img/icones/icones_tec";
 
 
 const Login = () => {
@@ -45,9 +45,7 @@ const Login = () => {
         <div className="container-login">
           {/* --==imagem==-- */}
           <div className="container-img-login">
-            <div className="img-login">
-              <img src= "./../../assets/img/banner/imagem-Login.png" alt="" />
-            </div>
+              <img src= "./../../assets/img/banner/felizNatalLogin.png" alt="" />
           </div>
 
           <form className="section-form" action="">
@@ -97,12 +95,14 @@ const Login = () => {
                 Forgot Password?
               </Link>
               {/* Texto para o caso de o usuário não ser um membro */}
-              <p className="">
+              <p className="signUpButtonLogin">
+
                 Not a member yet?
                 {/* Link para a página de registro */}
                 <Link to="/register" className="text-primary hover:underline">
                   Sign Up
                 </Link>
+                <img src="./../../assets/img/icones/icones_tec/presente.png" alt="" />
               </p>
             </div>
           </form>

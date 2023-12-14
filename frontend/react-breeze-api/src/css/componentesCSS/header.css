@@ -60,8 +60,8 @@
 /* ---===MENU HAMBURGUER===--- */
 
 .menu-hamburguer {
-  display: none;
-width: 100%;
+
+display: none;
 }
 .navbar-responsiva {
   position: absolute;
@@ -70,12 +70,12 @@ width: 100%;
   top: 0;
   width: 300;
   height: calc(100vh - 160px); /*removendo barra de scrolagem*/
-  padding-top: 160px;
   background-color: aliceblue;
   margin-right: -100%; /*esconder o navbar*/
   transition: all 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
+    display: none;
 }
 .menu-hamburguer .navbar-responsiva li {
   padding: 20px 80px;
@@ -317,7 +317,8 @@ button:focus {
     transform: rotate(-45deg) scaleX(1.25);
    } 
    #faketrigger:checked ~ .navbar-responsiva{
-    margin-right: 0;
+    left: 0;
+    display: block;
    }
 
 }
