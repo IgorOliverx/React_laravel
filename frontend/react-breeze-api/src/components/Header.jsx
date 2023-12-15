@@ -44,7 +44,7 @@ const Header = () => {
             </div>
           </div>
           <Search />
-        
+
           {/* <div className="menu-hamburguer">
             <input type="checkbox" name="" id="faketrigger" />
             <div className="linhas">
@@ -61,6 +61,34 @@ const Header = () => {
               <li><a href="#"></a>Login/Cadastro</li>
             </ul>
           </div> */}
+
+          <nav class="menu-hamburger">
+
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+
+            <ul class="menu-hamburguer-elements show">
+            <li>
+              <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Produtos</a>
+                </li>
+              <li>
+                <a href="#">Serviços</a>
+                </li>
+              <li>
+                <a href="#">Sobre Nós</a>
+                </li>
+              <li>
+                <a href="#">Login/Cadastro</a>
+                </li>
+            </ul>
+          </nav>
 
           {/* <img src="../assets/img/icones/icones_tec/menu-aberto.png" alt="menu-hamburguer" /> */}
         </nav>
