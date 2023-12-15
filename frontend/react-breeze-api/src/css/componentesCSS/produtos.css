@@ -253,6 +253,7 @@
   border-radius: 25px;
   margin-top: 30px;
   overflow: hidden;
+  margin: 15px 15px 15px 0px;
 }
 .product-card .button .button-layer {
   position: absolute;

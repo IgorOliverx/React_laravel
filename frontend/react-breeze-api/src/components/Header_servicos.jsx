@@ -3,13 +3,15 @@ import Search from "./subcomponents/Search";
 import "./../css/componentesCSS/header_services.css";
 import "./../css/index.css";
 import "./../css/cssSubcomponents/InputSearch.css";
+import "./../../assets/img/banner/PetCandleServico.svg" 
+
 
 const Header = () => {
   return (
     <>
       <img
         className="banner"
-        src="../assets/img/banner/PetCandleServico.svg"
+        src="./../../assets/img/banner/PetCandleServico.svg"
         alt=""
       />
       <header className="header">
