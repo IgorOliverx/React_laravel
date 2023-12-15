@@ -32,7 +32,7 @@ Neste documento você verá a produção do estilo e layout do site Pet Candle, 
 
 <hr>
 
-<ul><li><h2>Introdução: Organização na criação de designs para o site.</h2>h2></li></ul>
+<ul><li><h2>Introdução: Organização na criação de designs para o site.</h2></li></ul>
 
 <p>
   No início do projeto, o protótipo do site foi realizado no Figma, onde foram dividas as tarefas de design para cada integrante do projeto, ou seja, cada membro possuía a liberdade de criar seu próprio layout e estrutura.
@@ -43,5 +43,5 @@ Aqui então algumas prints do início do projeto no Figma:
 <br>
   <b>Divisão de páginas para cada integrante:</b>
 <br>
-![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/062b6683-dd38-499e-a7a5-6c19d299bc0b)
+<img src="![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/5457c7a8-b928-4788-95bc-6e17a8963289)" />
 
