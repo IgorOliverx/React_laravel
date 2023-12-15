@@ -196,4 +196,5 @@ p {
     transition: opacity 500ms ease-in, transform 500ms ease-in;
     transition-delay: 500ms;
   }
+  
 }

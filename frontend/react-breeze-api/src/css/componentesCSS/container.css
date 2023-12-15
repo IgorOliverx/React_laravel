@@ -117,9 +117,6 @@ body {
   height: 90%;
   display: flex;
   justify-content: space-between;
-}
-
-.container-about-us {
   border-left: 4px solid rgb(30, 155, 30);
 }
 
@@ -288,6 +285,7 @@ body {
 /* -----=====LADO ESQUERDO=====----- */
 
 .div-left-services {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
@@ -355,6 +353,7 @@ body {
 
   .container-about-us {
     flex-direction: column;
+    border: 0px;
   }
 
   .div-left-about-us .title .span-about-us,
@@ -376,10 +375,12 @@ body {
   .div-about-us {
     height: 900px;
     width: 80%;
+    margin-top: 6vh;
   }
 
   .container-about-us {
     flex-direction: column;
+    border: 0px;
   }
 
   .div-left-about-us .title .span-about-us,
@@ -395,6 +396,68 @@ body {
     margin-left: 6%;
   }
 
+  .div-services .container-services {
+    flex-direction: column;
+  }
+
+  .services-section .services-top,
+  .services-bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0em;
+  }
+
+  .service-card {
+    margin-top: 0px;
+    width: 40vh;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+  }
+
+  .service-card .service-info h1 {
+    height: 0px;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .service-card .service-info p {
+    height: 50px;
+    font-size: 16.5px;
+  }
+
+  .service-img img {
+    display: none;
+  }
+
+  .div-right-services .title .span-services {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .Servicos {
+    height: 0px;
+  }
+
+  .div-cards {
+    height: 0px;
+  }
+
+  .card-rectangle {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-rectangle:hover span {
+    display: none;
+  }
+
+  .slider{
+    margin-top: 10vh;
+  }
 
 }
 
