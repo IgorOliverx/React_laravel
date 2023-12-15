@@ -61,7 +61,7 @@ const Header = () => {
               <li><a href="#"></a>Login/Cadastro</li>
             </ul>
           </div> */}
-
+{/* 
           <nav class="menu-hamburger">
 
             <input id="menu-hamburguer" type="checkbox" />
@@ -88,7 +88,7 @@ const Header = () => {
                 <a href="#">Login/Cadastro</a>
                 </li>
             </ul>
-          </nav>
+          </nav> */}
 
           {/* <img src="../assets/img/icones/icones_tec/menu-aberto.png" alt="menu-hamburguer" /> */}
         </nav>

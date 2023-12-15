@@ -11,12 +11,22 @@ const Container = () => {
   const [textVisaoVisible, setTextVisaoVisible] = useState(false);
 
   const handleBtnMissaoClick = () => {
+    // btnMissao.style.backgroundColor = 'rgb(22, 157, 22)';
+    // btnMissao.style.padding = '10px 40px 10px 40px';
+    // btnMissao.style.fontSize = '12px';
+    // btnVisao.style.padding = '7px';
+    // btnVisao.style.fontSize = '10px';
     setDivBackgroundColor('#d6740a');
     setTextMissaoVisible(true);
     setTextVisaoVisible(false);
   };
 
   const handleBtnVisaoClick = () => {
+    // btnVisao.style.backgroundColor = '#ff8e15';
+    // btnVisao.style.padding = '10px 40px 10px 40px';
+    // btnVisao.style.fontSize = '12px';
+    // btnMissao.style.padding = '7px';
+    // btnMissao.style.fontSize = '10px';
     setDivBackgroundColor('rgb(18, 78, 41)');
     setTextMissaoVisible(false);
     setTextVisaoVisible(true);
