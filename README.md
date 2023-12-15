@@ -45,17 +45,17 @@ Aqui então algumas prints do início do projeto no Figma:
 <br>
 
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ea7ead37-441a-40e6-beee-0a153d640792)
-<br>
-<u>Design do Davi:</u>
-<br>
+<br><br>
+Design do Davi:
+<br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/f12a2969-db7e-4826-ad74-dbe34cc57b1c)
-<br>
-<u>Design do Eduardo:</u>
-<br>
+<br><br>
+Design do Eduardo:
+<br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/bfd9d44f-077b-4b91-a673-6713626c3b34)
-<br>
-<u>Design do Igor:</u>
-<br>
+<br><br>
+Design do Igor:
+<br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/2853009a-9b66-4e0d-baf1-717131bfc58d)
 <br>
 <h5><b>Obs.: (Está página foi utilizada por todos os membros do grupo)</b></h5>
