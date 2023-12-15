@@ -1,4 +1,4 @@
-![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/63d064f0-045e-4dd1-9e5f-5d9cc1cceb41)#Documentação de Design do Pet Candle
+#Documentação de Design do Pet Candle
 
 Neste documento você verá a produção do estilo e layout do site Pet Candle, as decisões tomadas para chegar na situação design final e os responsáveis.
 
