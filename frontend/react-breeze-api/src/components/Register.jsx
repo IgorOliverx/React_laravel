@@ -34,7 +34,7 @@ const Register = () => {
 
   return (
     <>
-      {/* <HeaderLogin /> */}
+
       <section className="section-cadastro">
         <div className="container-cadastro">
 
