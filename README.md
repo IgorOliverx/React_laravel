@@ -43,5 +43,6 @@ Aqui então algumas prints do início do projeto no Figma:
 <br>
   <b>Divisão de páginas para cada integrante:</b>
 <br>
-<img src="![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/5457c7a8-b928-4788-95bc-6e17a8963289)" />
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ea7ead37-441a-40e6-beee-0a153d640792)
 
