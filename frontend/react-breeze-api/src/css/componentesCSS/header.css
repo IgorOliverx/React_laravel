@@ -25,7 +25,6 @@
   width: 100vw;
   height: 100%;
   font-family: "Hammersmith One", sans-serif;
-
 }
 /* ----- Navbar ----- */
 .navbar {
@@ -34,7 +33,6 @@
   display: flex;
   justify-content: space-around;
   padding: 15px;
-  
 }
 
 .banner {
@@ -71,11 +69,10 @@
   color: #ff8e15;
 }
 
-/* ---===MENU HAMBURGUER===--- */
+/* ---===MENU HAMBURGUER===---
 
 .menu-hamburguer {
-
-display: none;
+  display: none;
 }
 .navbar-responsiva {
   position: absolute;
@@ -84,12 +81,12 @@ display: none;
   top: 0;
   width: 300;
   height: calc(100vh - 160px); /*removendo barra de scrolagem*/
-  background-color: aliceblue;
-  margin-right: -100%; /*esconder o navbar*/
-  transition: all 0.5s ease-in-out;
+  /* background-color: aliceblue;
+  margin-right: -100%; esconder o navbar */
+  /* transition: all 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
-    display: none;
+  display: none;
 }
 .menu-hamburguer .navbar-responsiva li {
   padding: 20px 80px;
@@ -101,7 +98,6 @@ display: none;
   transition: 0.2s;
 }
 .linhas {
-  position: absolute;
   z-index: 999;
   top: 0;
   right: 2%;
@@ -111,9 +107,9 @@ display: none;
 }
 .linhas span {
   display: block;
-  width: 50px;
-  height: 10px;
-  margin-bottom: 10px;
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
   border-radius: 10px;
   transition: all ease-in-out 0.5s;
   background-color: white;
@@ -121,15 +117,16 @@ display: none;
 
 #faketrigger {
   position: absolute;
-  width: 85px;
-  height: 80px;
+  width: 55px;
+  height:55px;
   z-index: 1000;
   top: 0;
   right: 0;
   margin: 0;
   opacity: 0;
   cursor: pointer;
-}
+
+}  */
 
 /* ---====Componentes do navbar-1 (logo, link, login)====--- */
 .logo-img img {
@@ -305,34 +302,43 @@ button:focus {
 
 /* -----=====Responsividade do NavBar====----- */
 @media (max-width: 880px) {
-  .login-responsive,
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+;
+  }
+
+  .login-cad-section,
   .links-responsive {
     display: none;
   }
 
-  .menu-hamburguer {
+  /* .menu-hamburguer {
     display: block;
     top: 0px;
     float: right;
-    height: 100vh;
+    height: 100%;
+    width: 60px;
+ padding: 10px;
   }
   #faketrigger:checked ~ .linhas span {
     background-color: #ff8e15;
+    z-index: 99;
   }
-  #faketrigger:checked ~ .linhas span:nth-child(1){
+  #faketrigger:checked ~ .linhas span:nth-child(1) {
     transform-origin: 0% 0%;
-    transform: rotate(45deg) scaleX(1.25);
-  } 
-  #faketrigger:checked ~ .linhas span:nth-child(2){
+    transform: rotate(45deg) scaleX(0.75);
+  }
+  #faketrigger:checked ~ .linhas span:nth-child(2) {
     opacity: 0;
-  } 
-  #faketrigger:checked ~ .linhas span:nth-child(3){
+  }
+  #faketrigger:checked ~ .linhas span:nth-child(3) {
     transform-origin: 0% 100%;
-    transform: rotate(-45deg) scaleX(1.25);
-   } 
-   #faketrigger:checked ~ .navbar-responsiva{
+    transform: rotate(-45deg) scaleX(0.75);
+  }
+  #faketrigger:checked ~ .navbar-responsiva {
     left: 0;
     display: block;
-   }
-
+  } */
 }
