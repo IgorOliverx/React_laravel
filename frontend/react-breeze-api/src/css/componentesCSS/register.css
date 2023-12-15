@@ -27,7 +27,7 @@ body {
 }
 
 .container-cadastro {
-  width: 85%;
+  width:65%;
   height: 60%;
   display: flex;
   background-color: #ffffff;
@@ -140,7 +140,7 @@ body {
 }
 
 /* Responsividade */
-@media (max-width:1100px){
+@media (max-width:1340px){
     .div-img-cadastro .gatoCad {
         transform: translateX(-30%);
 

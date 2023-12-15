@@ -1,0 +1,410 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, gray, darkgray);
+    border-radius: 6px;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+  
+  :root {
+    --padrao: "Hammersmith One", sans-serif;
+    --teste: "Poppins", sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    font-family: "Hammersmith One", sans-serif;
+  }
+  /* ----- Navbar ----- */
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .banner {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+  
+  /* ----- Botão do Banner ----- */
+  
+  .btn-banner {
+    margin-top: 20%;
+    margin-left: 10%;
+    width: auto;
+    height: 60px;
+  }
+  
+  .btn-banner button {
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 3px 3px 15px gray;
+    background-color: #ff8e15;
+    border: 2px solid #ff8e15;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-banner button:hover {
+    transform: scale(110%);
+    background-color: white;
+    color: #ff8e15;
+  }
+  
+  /* ---===MENU HAMBURGUER===---*/
+  
+  .menu-hamburger{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  display: none;
+  }
+  
+  .menu-hamburguer-elements{
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu-hamburguer-elements li{
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    list-style: none;
+  }
+  
+  .menu-hamburguer-elements a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-hamburguer-elements a:hover{
+    color: rgba(20,20,20,.8)
+  } 
+  .menu-hamburger label{
+    height: 40px;
+    width: 70px;
+  }
+  
+  
+  /* BOTÃO MENU HAMBURGUER */
+   .menu {
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .hamburguer {
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .hamburguer:before,
+  .hamburguer:after {
+    background: #ffff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .hamburguer:before {
+    top: -10px;
+  }
+  
+  .hamburguer:after {
+    bottom: -10px;
+  }
+  
+  input {
+    display: none;
+  } 
+  
+  /* rotação dos elementos do span */
+   input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+  }
+  
+  input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
+  input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+  }
+  
+  input:checked ~ .menu-hamburguer-elements{
+    right: 0;
+  } 
+  
+  /* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
+  @media (max-width: 880px){ 
+    
+  
+    .btn-banner button{
+      display: none;
+    }
+    .menu-hamburguer-elements a:hover{
+        color: rgb(214, 161, 214);
+    }
+    
+    .menu-hamburger{
+      
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-self: flex-start;
+  
+        z-index: 1;
+        color: white
+    }
+  
+    .menu-hamburguer-elements{
+        width: 60%;
+        height: 100%;
+        background-color: rgba(10,10,10,.9);
+        position: fixed;
+        right: -100%;
+        top: 0;
+    
+        transition: right cubic-bezier(1,0,0,1) .8s;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 15vh;
+        z-index: -1;
+    }
+  
+    .menu{
+        display: flex;
+        width: 35px;
+        height: 35px;
+    }
+  
+  } 
+  /* Final do Menu Hamburguer */
+  
+  /* ---====Componentes do navbar-1 (logo, link, login)====--- */
+  .logo-img img {
+    width: 10vh;
+    height: 11vh;
+  }
+  
+  /* ------ links ------ */
+  .links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links-responsive {
+    width: 35%;
+    display: block;
+  }
+  
+  .header .navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .navbar .links-responsive .links ul a {
+    text-decoration: none;
+    /*color: rgb(116, 60, 60);*/
+    color: #327a3e;
+    position: relative;
+  }
+  .navbar ul a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    /* background-color: rgb(102, 33, 33); */
+    background-color: #306b35;
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul a:hover::after {
+    width: 120%;
+    transition: 0.5s;
+  }
+  
+  /* --login e cadastro (LINK)-- */
+  .login-cad-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    color: white;
+  }
+  
+  .login-responsive {
+    display: block;
+  }
+  
+  .login-cad-section a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  
+  /* -----=====Transição do Navbar */
+  .navbar-container {
+    width: 100%;
+    height: 100%;
+  }
+  #navbar-scroll {
+    display: none;
+    width: 100%;
+    height: 9.5%;
+    animation: navbar-animation 0.5s ease-in;
+    background-color: #31ca5f;
+    z-index: 1;
+  }
+  
+  #navbar-scroll .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  #navbar-scroll .navbar ul a,
+  a::after {
+    color: white;
+  }
+  
+  #navbar-scroll .navbar .logo-img {
+    height: auto;
+  }
+  
+  #navbar-scroll .links-responsive .links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #navbar-scroll .navbar .logo-img img {
+    width: 7vh;
+    height: 8vh;
+  }
+  
+  #navbar-scroll .navbar .logo-img {
+    background-color: white;
+  }
+  
+  #navbar-scroll .navbar .search-box input {
+    border: 2px solid rgb(189, 189, 189);
+  }
+  
+  @keyframes navbar-animation {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  /*-------Search-box-----*/
+  form {
+    width: 40vh;
+    position: relative;
+  }
+  
+  .search-box {
+    display: block;
+  }
+  
+  .search-box input {
+    width: 40vh;
+    height: 25px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 2px;
+    padding-left: 10px;
+    display: block;
+  }
+  
+  .search-box input::placeholder {
+    color: rgb(195, 197, 198);
+  }
+  
+  .search-box button {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+  
+  .search-box button img {
+    width: 15px;
+  }
+  
+  /* -----=====Responsividade do NavBar====----- */
+  @media (max-width: 880px) {
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  ;
+    }
+  
+    .login-cad-section,
+    .links-responsive {
+      display: none;
+    }
+  
+  }
+  

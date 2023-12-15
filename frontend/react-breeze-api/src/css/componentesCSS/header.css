@@ -25,7 +25,6 @@
   width: 100vw;
   height: 100%;
   font-family: "Hammersmith One", sans-serif;
-
 }
 /* ----- Navbar ----- */
 .navbar {
@@ -33,8 +32,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 15px;
-  
+
 }
 
 .banner {
@@ -71,65 +69,156 @@
   color: #ff8e15;
 }
 
-/* ---===MENU HAMBURGUER===--- */
+/* ---===MENU HAMBURGUER===---*/
 
-.menu-hamburguer {
-
+.menu-hamburger{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 display: none;
 }
-.navbar-responsiva {
-  position: absolute;
-  z-index: 900;
-  right: 0;
-  top: 0;
-  width: 300;
-  height: calc(100vh - 160px); /*removendo barra de scrolagem*/
-  background-color: aliceblue;
-  margin-right: -100%; /*esconder o navbar*/
-  transition: all 0.5s ease-in-out;
+
+.menu-hamburguer-elements{
   display: flex;
-  flex-direction: column;
-    display: none;
-}
-.menu-hamburguer .navbar-responsiva li {
-  padding: 20px 80px;
-}
-.menu-hamburguer a {
-  text-decoration: none;
-  color: black;
-  font-size: 15pt;
-  transition: 0.2s;
-}
-.linhas {
-  position: absolute;
-  z-index: 999;
-  top: 0;
-  right: 2%;
-  margin-top: 2%;
-  width: 50px;
-  height: 10px;
-}
-.linhas span {
-  display: block;
-  width: 50px;
-  height: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  transition: all ease-in-out 0.5s;
-  background-color: white;
+  width: 80%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#faketrigger {
-  position: absolute;
-  width: 85px;
-  height: 80px;
-  z-index: 1000;
-  top: 0;
-  right: 0;
-  margin: 0;
-  opacity: 0;
-  cursor: pointer;
+.menu-hamburguer-elements li{
+  list-style: none;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  list-style: none;
 }
+
+.menu-hamburguer-elements a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu-hamburguer-elements a:hover{
+  color: rgba(20,20,20,.8)
+} 
+.menu-hamburger label{
+  height: 40px;
+  width: 70px;
+}
+
+
+/* BOTÃO MENU HAMBURGUER */
+ .menu {
+  
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburguer {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 30px;
+  height: 2px;
+  top: 29px;
+  left: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+  background: #ffff;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before {
+  top: -10px;
+}
+
+.hamburguer:after {
+  bottom: -10px;
+}
+
+input {
+  display: none;
+} 
+
+/* rotação dos elementos do span */
+ input:checked ~ label .hamburguer {
+  transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+input:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+input:checked ~ .menu-hamburguer-elements{
+  right: 0;
+} 
+
+/* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
+@media (max-width: 880px){ 
+  
+
+  .btn-banner button{
+    display: none;
+  }
+  .menu-hamburguer-elements a:hover{
+      color: rgb(214, 161, 214);
+  }
+  
+  .menu-hamburger{
+    
+      display: flex;
+      width: auto;
+      flex-direction: column;
+      align-self: flex-start;
+
+      z-index: 1;
+      color: white
+  }
+
+  .menu-hamburguer-elements{
+      width: 60%;
+      height: 100%;
+      background-color: rgba(10,10,10,.9);
+      position: fixed;
+      right: -100%;
+      top: 0;
+  
+      transition: right cubic-bezier(1,0,0,1) .8s;
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 15vh;
+      z-index: -1;
+  }
+
+  .menu{
+      display: flex;
+      width: 35px;
+      height: 35px;
+  }
+
+} 
+/* Final do Menu Hamburguer */
 
 /* ---====Componentes do navbar-1 (logo, link, login)====--- */
 .logo-img img {
@@ -168,7 +257,7 @@ display: none;
   background-color: #ff8e15;
   position: absolute;
   bottom: 0;
-  left: 1px;
+  right: 1px;
   transition: 0.5s;
 }
 
@@ -305,34 +394,16 @@ button:focus {
 
 /* -----=====Responsividade do NavBar====----- */
 @media (max-width: 880px) {
-  .login-responsive,
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+;
+  }
+
+  .login-cad-section,
   .links-responsive {
     display: none;
   }
-
-  .menu-hamburguer {
-    display: block;
-    top: 0px;
-    float: right;
-    height: 100vh;
-  }
-  #faketrigger:checked ~ .linhas span {
-    background-color: #ff8e15;
-  }
-  #faketrigger:checked ~ .linhas span:nth-child(1){
-    transform-origin: 0% 0%;
-    transform: rotate(45deg) scaleX(1.25);
-  } 
-  #faketrigger:checked ~ .linhas span:nth-child(2){
-    opacity: 0;
-  } 
-  #faketrigger:checked ~ .linhas span:nth-child(3){
-    transform-origin: 0% 100%;
-    transform: rotate(-45deg) scaleX(1.25);
-   } 
-   #faketrigger:checked ~ .navbar-responsiva{
-    left: 0;
-    display: block;
-   }
 
 }

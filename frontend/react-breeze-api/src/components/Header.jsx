@@ -44,43 +44,36 @@ const Header = () => {
             </div>
           </div>
           <Search />
-          {/* --==HAMBURGUER==-- */}
-          {/* <div className="menu-hamburguer">
-                    <img className="hamburguer-img" src="../assets/img/icones/icones_tec/menu.png" alt="menu-hamburguer" />
-                </div>
-                <div className="div-menu-hamburguer">
-                    <div className="container-menu-hamburguer">
-                        <div className="cancelar-menu">
-                            <img className="cancelar-img" src="../assets/img/icones/icones_tec/cancelar.png" alt="menu-hamburguer" />
-                        </div>
-                        <div className="links-hamburguer">
-                            <ul>
-                                <a href="/" className="...">Home</a>
-                                <a href="#" className="...">Produtos</a>
-                                <Link to="/servicos" className="...">Serviços</Link>
-                                <a href="#AboutUs" className="About-Us-Link">Sobre nós</a>
-                            </ul>
-                        </div>
-                    </div>
-                </div> */}
-          <div className="menu-hamburguer">
-            <input type="checkbox" name="" id="faketrigger" />
-            <div className="linhas">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
 
-            <ul className="navbar-responsiva">
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>Produtos</li>
-              <li><a href="#"></a>Serviços</li>
-              <li><a href="#"></a>Sobre Nós</li>
-              <li><a href="#"></a>Login/Cadastro</li>
+
+          <nav class="menu-hamburger">
+
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+
+            <ul class="menu-hamburguer-elements show">
+            <li>
+              <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Produtos</a>
+                </li>
+              <li>
+                <a href="#">Serviços</a>
+                </li>
+              <li>
+                <a href="#">Sobre Nós</a>
+                </li>
+              <li>
+                <a href="#">Login/Cadastro</a>
+                </li>
             </ul>
-          </div>
+          </nav>
 
-          {/* <img src="../assets/img/icones/icones_tec/menu-aberto.png" alt="menu-hamburguer" /> */}
         </nav>
 
         <div className="navbar-container">
@@ -105,6 +98,35 @@ const Header = () => {
                 <a href="">Login</a> |<a href="">Cadastro</a>
               </div>
               <Search />
+
+
+              <nav class="menu-hamburger">
+
+<input id="menu-hamburguer" type="checkbox" />
+<label for="menu-hamburguer">
+  <div class="menu">
+    <span class="hamburguer"></span>
+  </div>
+</label>
+
+<ul class="menu-hamburguer-elements show">
+<li>
+  <a href="#">Home</a>
+  </li>
+  <li>
+    <a href="#">Produtos</a>
+    </li>
+  <li>
+    <a href="#">Serviços</a>
+    </li>
+  <li>
+    <a href="#">Sobre Nós</a>
+    </li>
+  <li>
+    <a href="#">Login/Cadastro</a>
+    </li>
+</ul>
+</nav>
             </nav>
           </div>
         </div>

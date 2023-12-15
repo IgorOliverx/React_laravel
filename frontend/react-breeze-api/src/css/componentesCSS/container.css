@@ -183,11 +183,15 @@ body {
 
 .btn-M-V .btn-Missao {
   background-color: rgb(22, 157, 22);
-  border: 3px solid rgb(22, 157, 22);
+  border: 1px solid rgb(22, 157, 22);
   color: #ffffff;
   transition: .2s;
   cursor: pointer;
-  font-weight: 700;
+
+}
+.btn-M-V .btn-Missao:hover, .btn-M-V .btn-Visao:hover {
+  transition: .2s;
+  border: 2px solid rgb(224, 222, 222);
 }
 
 .btn-M-V .btn-Visao {
@@ -196,10 +200,7 @@ body {
   transition: .2s;
   cursor: pointer;
   color: #ffffff;
-  padding: 7px;
-  font-size: 10px;
-  font-weight: 700;
-}
+  }
 
 .text-Missao {
   margin: 0;
@@ -267,7 +268,7 @@ body {
 
 .div-right-services .services-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   gap: 2em;
 }
@@ -345,6 +346,25 @@ body {
 /* Media query */
 
 /* Maioria dos smarthphones */
+@media (max-width:1600px){
+  .div-right-services{
+    width: 40%;
+  }
+}
+@media (max-width:1300px){
+  .div-right-services{
+    width: 400px;
+    height: 100%;
+    
+  }
+  .div-right-services .services-section{
+    gap: 0;
+  }
+  .container-services{
+    height: 500px;
+    margin-bottom: 100px;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .div-about-us {
     height: 1200px;
@@ -371,16 +391,11 @@ body {
 }
 
 /* Tablets de baixa resolução, celulares */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 770px) {
   .div-about-us {
     height: 900px;
     width: 80%;
     margin-top: 6vh;
-  }
-
-  .container-about-us {
-    flex-direction: column;
-    border: 0px;
   }
 
   .div-left-about-us .title .span-about-us,
@@ -398,14 +413,18 @@ body {
 
   .div-services .container-services {
     flex-direction: column;
+
   }
+
 
   .services-section .services-top,
   .services-bottom {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 0em;
+    gap: 2em;
+    margin-left: 20px;
   }
 
   .service-card {
@@ -462,7 +481,29 @@ body {
 }
 
 /* tablets, Ipad */
-@media (min-width: 768px) and (max-width: 1024px) {}
-
+@media (max-width: 1100px) {
+  .testeAqui{
+    display: none;
+  }
+  .div-right-services {
+    width: 400px;
+}
+}
 /* Laptops/Desktoos */
-@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (max-width:770px) {
+  .div-left-services {
+display: none;
+}
+.div-about-us{
+  height: 500px;
+  margin-bottom: 30px;
+}
+.container-about-us{height: 50%;}
+.Nossa-Missao-Visao{
+  height: 250px;
+}
+.div-right-services .services-section{
+  display: flex;
+  flex-direction: row;
+}
+}

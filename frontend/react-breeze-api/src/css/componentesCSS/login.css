@@ -71,12 +71,12 @@ body {
   border-top: none;
   border-bottom: solid 3px #213c68;
 }
-.button-div {
+.section-form .login-form .button-div-login {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
-.section-form .login-form form .button-div button {
+.section-form .login-form form .button-div-login button {
   width: 70%;
   height: 35px;
   border: none;
@@ -89,7 +89,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.section-form .login-form form .button-div button:hover {
+.section-form .login-form form .button-div-login button:hover {
   transform: scale(110%);
   background-color: white;
   color: #a10000;
@@ -108,7 +108,8 @@ body {
 @media (max-width: 950px){
   .container-login .container-img-login, .container-login .container-img-login img {
     display: none;
-}}
+}
+}
 @media (max-width: 705px){
   .container-login{
     width: 50%;

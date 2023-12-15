@@ -38,7 +38,7 @@ const Login = () => {
 
   return (
     <>
-      <HeaderLogin />
+      {/* <HeaderLogin /> */}
 
       <section className="login">
         <div className="container-login">
@@ -84,15 +84,13 @@ const Login = () => {
                 )}
               </div>
 
-              <div className="button-div">
+              <div className="button-div-login">
                 <button type="submit" className="">
                   Login
                 </button>
               </div>
             </div>
-          </form>
-
-          <Link to="/forgot-password" className="">
+            <Link to="/forgot-password" className="">
             Forgot Password?
           </Link>
 
@@ -103,6 +101,9 @@ const Login = () => {
             </Link>
             <img src="./../../assets/img/icones/icones_tec/presente.png" alt="" />
           </p>
+          </form>
+
+          
         </div>
 
         {error && (
