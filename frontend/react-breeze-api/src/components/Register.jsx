@@ -34,7 +34,7 @@ const Register = () => {
 
   return (
     <>
-      <HeaderLogin />
+ 
       <section className="section-cadastro">
         <div className="container-cadastro">
 
@@ -138,22 +138,7 @@ const Register = () => {
               </div>
             </form>
 
-            <div className="nao-cadastrado">
-              <Link
-                to="/forgot-password"
-                className="
-           
-              "
-              >
-                Forgot Password?
-              </Link>
-              <p className="">
-                Not a member yet?
-                <Link to="/register" className="">
-                  Sign Up
-                </Link>
-              </p>
-            </div>
+            
           </div>
           <div className="div-img-cadastro">
             <p>Feliz Natal !</p>

@@ -73,9 +73,7 @@ const Servicos = () => {
         </div>
 
         <div className="container-agendamento">
-          <div className="img-agendamento">
-            <img src="" alt="gatinho" />
-          </div>
+
           <div className="agenda-info">
             <div className="agenda-title">
               <h1>Faça já o seu Agendamento!</h1>

@@ -45,23 +45,7 @@ const Header = () => {
           </div>
           <Search />
 
-          {/* <div className="menu-hamburguer">
-            <input type="checkbox" name="" id="faketrigger" />
-            <div className="linhas">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
 
-            <ul className="navbar-responsiva">
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>Produtos</li>
-              <li><a href="#"></a>Serviços</li>
-              <li><a href="#"></a>Sobre Nós</li>
-              <li><a href="#"></a>Login/Cadastro</li>
-            </ul>
-          </div> */}
-{/* 
           <nav class="menu-hamburger">
 
             <input id="menu-hamburguer" type="checkbox" />
@@ -88,9 +72,8 @@ const Header = () => {
                 <a href="#">Login/Cadastro</a>
                 </li>
             </ul>
-          </nav> */}
+          </nav>
 
-          {/* <img src="../assets/img/icones/icones_tec/menu-aberto.png" alt="menu-hamburguer" /> */}
         </nav>
 
         <div className="navbar-container">
@@ -115,23 +98,35 @@ const Header = () => {
                 <a href="">Login</a> |<a href="">Cadastro</a>
               </div>
               <Search />
-              {/* <div className="menu-hamburguer">
-            <input type="checkbox" name="" id="faketrigger" />
-            <div className="linhas">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
 
-            <ul className="navbar-responsiva">
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>Produtos</li>
-              <li><a href="#"></a>Serviços</li>
-              <li><a href="#"></a>Sobre Nós</li>
-              <li><a href="#"></a>Login/Cadastro</li>
-            </ul>
-          </div> */}
 
+              <nav class="menu-hamburger">
+
+<input id="menu-hamburguer" type="checkbox" />
+<label for="menu-hamburguer">
+  <div class="menu">
+    <span class="hamburguer"></span>
+  </div>
+</label>
+
+<ul class="menu-hamburguer-elements show">
+<li>
+  <a href="#">Home</a>
+  </li>
+  <li>
+    <a href="#">Produtos</a>
+    </li>
+  <li>
+    <a href="#">Serviços</a>
+    </li>
+  <li>
+    <a href="#">Sobre Nós</a>
+    </li>
+  <li>
+    <a href="#">Login/Cadastro</a>
+    </li>
+</ul>
+</nav>
             </nav>
           </div>
         </div>

@@ -32,7 +32,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 15px;
+
 }
 
 .banner {
@@ -69,12 +69,13 @@
   color: #ff8e15;
 }
 
-/* ---===MENU HAMBURGUER===---
-/* 
+/* ---===MENU HAMBURGUER===---*/
+
 .menu-hamburger{
   width: 100%;
   display: flex;
   justify-content: center;
+display: none;
 }
 
 .menu-hamburguer-elements{
@@ -100,15 +101,18 @@
 
 .menu-hamburguer-elements a:hover{
   color: rgba(20,20,20,.8)
-} */
+} 
+.menu-hamburger label{
+  height: 40px;
+  width: 70px;
+}
 
 
 /* BOTÃO MENU HAMBURGUER */
-/* .menu {
-  background-color: rgb(214, 161, 214);
-  width: 60px;
-  height: 60px;
-  margin: 1rem 1rem;
+ .menu {
+  
+  width: 35px;
+  height: 35px;
   border-radius: 5px;
   cursor: pointer;
   display: none;
@@ -146,10 +150,10 @@
 
 input {
   display: none;
-} */
+} 
 
 /* rotação dos elementos do span */
-/* input:checked ~ label .hamburguer {
+ input:checked ~ label .hamburguer {
   transform: rotate(45deg);
 }
 
@@ -164,26 +168,27 @@ input:checked ~ label .hamburguer:after {
 }
 
 input:checked ~ .menu-hamburguer-elements{
-  left: 0;
-} */
+  right: 0;
+} 
 
 /* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
-/* @media (max-width: 600px){ */
+@media (max-width: 880px){ 
   
-  /* header{
-      height: 20%;
-  } */
-/* 
+
+  .btn-banner button{
+    display: none;
+  }
   .menu-hamburguer-elements a:hover{
       color: rgb(214, 161, 214);
   }
   
   .menu-hamburger{
+    
       display: flex;
       width: auto;
       flex-direction: column;
       align-self: flex-start;
-      overflow: auto;
+
       z-index: 1;
       color: white
   }
@@ -193,28 +198,26 @@ input:checked ~ .menu-hamburguer-elements{
       height: 100%;
       background-color: rgba(10,10,10,.9);
       position: fixed;
-      left: -60%;
+      right: -100%;
       top: 0;
   
-      transition: left cubic-bezier(1,0,0,1) .8s;
+      transition: right cubic-bezier(1,0,0,1) .8s;
       
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
-  
       padding-top: 15vh;
-  
       z-index: -1;
   }
 
   .menu{
       display: flex;
-      height: 60px;
-      width: 60px;
+      width: 35px;
+      height: 35px;
   }
 
-} */
+} 
 /* Final do Menu Hamburguer */
 
 /* ---====Componentes do navbar-1 (logo, link, login)====--- */
@@ -254,7 +257,7 @@ input:checked ~ .menu-hamburguer-elements{
   background-color: #ff8e15;
   position: absolute;
   bottom: 0;
-  left: 1px;
+  right: 1px;
   transition: 0.5s;
 }
 
@@ -394,7 +397,7 @@ button:focus {
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 ;
   }
 
