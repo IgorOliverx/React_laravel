@@ -11,7 +11,7 @@ Neste documento você verá a produção do estilo e layout do site Pet Candle, 
   <ol>
     <li>Organização na criação de designs para o site;</li>
   </ol>
-
+    <br>
   <li>Identidade Visual:</li>
   <ol>
     <li>Público-Alvo;</li>
@@ -19,7 +19,7 @@ Neste documento você verá a produção do estilo e layout do site Pet Candle, 
     <li>Tipografia;</li>
     <li>Logotipo e Elementos do Site.</li>
   </ol>
-
+  <br>
   <li>Desenvolvimento:</li>
   <ol>
     <li>Referência e Recursos;</li>
