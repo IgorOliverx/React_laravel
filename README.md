@@ -52,7 +52,7 @@ Design do Davi:
 <br><br>
 Design do Eduardo:
 <br>
-![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/bfd9d44f-077b-4b91-a673-6713626c3b34)
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/f0cbdfe5-e6bb-481c-a9e8-fc939dc97ebf)
 <br><br>
 Design do Igor:
 <br>
