@@ -92,7 +92,62 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <br><br>
 
 <ul><li><h2>Identidade Visual: Tipografia.</h2></li></ul>
-
+<br>
 <p>
      Como fonte padrão, foi escolhido a fonte: “Hammersmith One”
 </p>
+<br>
+<b>Fonte:</b>
+<br>
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/48faaf05-9b83-4be9-a108-c91384025dc9)
+<br><br>
+
+<b>Link de Importação:</b>
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/23cd4c97-884c-4ad3-aea6-28313e72bd11)
+<br><br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ca37981d-8494-47f0-b949-b071d8618e18)
+<br>
+<p>Foi utilizado a propriedade <b>“root”</b> no CSS para armazenamos está fonte em uma variável para ser mais prático.</p>
+<br>
+
+<ul><li><h2>Identidade Visual: Logotipo e elementos do site.</h2></li></ul>
+<br>
+<p>
+     Para o logotipo, foi utilizado um site chamado <b>“Looka”</b>, um ótimo recurso para criação de logos.
+</p>
+<br><br>
+<b>Logotipo:</b>
+<br>
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/75912cca-bb82-40c7-a2c6-d9444c3de0ed)
+<br><br>
+
+<p>   O nome <b>“Pet Candle”</b> foi criado pelo Eduardo e aprovado pelo grupo.</p>
+<br>
+
+<ul><li><h2>Desenvolvimento: Referências e Recursos.</h2></li></ul>
+<br>
+
+<p>
+     Alguns sites foram utilizados como inspiração para a criação do design do site, alguns são conhecidos e outros são apenas templates da internet.
+
+Aqui está alguns exemplos de sites utilizados:
+</p>
+<br>
+<b>Site da Petz:</b>
+<br>
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/6f92f59f-96c9-400b-92c3-be73bb81d94b)
+
+<br><br>
+
+<b>Site do Cobasi:</b>
+<br>
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/c5d1e436-9355-4154-9269-1a17910ed2dd)
+<br><br>
+
+
+
