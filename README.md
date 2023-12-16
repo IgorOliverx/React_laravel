@@ -60,4 +60,20 @@ Design do Igor:
 <br>
 <h5><b>Obs.: (Está página foi utilizada por todos os membros do grupo)</b></h5>
 
+<ul><li><h2>Identidade Visual: Público-Alvo.</h2></li></ul>
+<br>
+<p>
+    Não possuímos um público-alvo específico, pois nosso site pode ser direcionado a todos os tipos de pessoas, desde jovens até idosos.
+</p>
+<br>
+<br>
+<ul><li><h2>Identidade Visual: Paleta de Cores.</h2></li></ul>
+<br>
+<p>
+     Durante o desenvolvimento do design, foi discutido qual seria as cores principais que refretem a personalidade do site.
+   Então, foi chega-se à conclusão de que as melhores cores principais seriam verde, laranja e branca.
 
+Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no projeto final:
+</p>
+<br>
+<br>
