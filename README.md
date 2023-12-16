@@ -117,7 +117,7 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <p>
      Para o logotipo, foi utilizado um site chamado <b>“Looka”</b>, um ótimo recurso para criação de logos.
 </p>
-<br><br>
+<br>
 <b>Logotipo:</b>
 <br>
 
@@ -140,9 +140,7 @@ Aqui está alguns exemplos de sites utilizados:
 <br>
 
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/6f92f59f-96c9-400b-92c3-be73bb81d94b)
-
-<br><br>
-
+<br>
 <b>Site do Cobasi:</b>
 <br>
 
