@@ -77,7 +77,8 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <br>
 <b>Protótipo:</b>
 <br>
-![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/f5fa2769-82b0-4b8b-a0fd-390b930659c4)
+
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ee3db8d6-ed0d-487a-a1c1-551166822906)
 <br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ccee3b1c-b458-45ba-968d-9a9ff1460fb4)
 <br><br>
