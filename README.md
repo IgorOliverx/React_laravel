@@ -83,13 +83,13 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ccee3b1c-b458-45ba-968d-9a9ff1460fb4)
 <br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/8fe73d09-a928-4140-b662-f4c885e56c2d)
-<br>
+<br><hr>
 <b>Versão Final:</b>
 <br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/8105695e-eac2-41f9-b1f1-28e53386b09c)
 <br><br>
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/022d5588-7a08-436c-a2e4-27d51266220d)
-<br>
+<br><br>
 
 <ul><li><h2>Identidade Visual: Tipografia.</h2></li></ul>
 
