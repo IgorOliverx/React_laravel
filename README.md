@@ -1,4 +1,4 @@
-# Documentação de Design do Pet Candle
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ffeefe71-3325-48d5-afe3-a6ca3f0aa272)# Documentação de Design do Pet Candle
 
 Neste documento você verá a produção do estilo e layout do site Pet Candle, as decisões tomadas para chegar na situação design final e os responsáveis.
 
@@ -66,7 +66,6 @@ Design do Igor:
     Não possuímos um público-alvo específico, pois nosso site pode ser direcionado a todos os tipos de pessoas, desde jovens até idosos.
 </p>
 <br>
-<br>
 <ul><li><h2>Identidade Visual: Paleta de Cores.</h2></li></ul>
 <br>
 <p>
@@ -76,4 +75,23 @@ Design do Igor:
 Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no projeto final:
 </p>
 <br>
+<b>Protótipo:</b>
 <br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/f5fa2769-82b0-4b8b-a0fd-390b930659c4)
+<br><br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/ccee3b1c-b458-45ba-968d-9a9ff1460fb4)
+<br><br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/8fe73d09-a928-4140-b662-f4c885e56c2d)
+<br>
+<b>Versão Final:</b>
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/8105695e-eac2-41f9-b1f1-28e53386b09c)
+<br><br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/022d5588-7a08-436c-a2e4-27d51266220d)
+<br>
+
+<ul><li><h2>Identidade Visual: Tipografia.</h2></li></ul>
+
+<p>
+     Como fonte padrão, foi escolhido a fonte: “Hammersmith One”
+</p>
