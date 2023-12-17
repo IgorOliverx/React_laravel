@@ -3,7 +3,7 @@ import Search from "./subcomponents/Search";
 import "./../css/componentesCSS/header_services.css";
 import "./../css/index.css";
 import "./../css/cssSubcomponents/InputSearch.css";
-import "./../../assets/img/banner/PetCandleServico.svg" 
+import "./../../assets/img/banner/PetCandleServico.svg"
 
 
 const Header = () => {
@@ -61,14 +61,16 @@ const Header = () => {
             </label>
 
             <ul class="menu-hamburguer-elements show">
-              <li>
-                <a href="#">Home</a>
-              </li>
+              <Link to="/" className="...">
+                Home
+              </Link>
               <li>
                 <a href="#">Produtos</a>
               </li>
               <li>
-                <a href="#">Serviços</a>
+                <Link to="/servicos" className="...">
+                  Serviços
+                </Link>
               </li>
               <li>
                 <a href="#">Sobre Nós</a>
@@ -91,20 +93,31 @@ const Header = () => {
               <div className="links-responsive">
                 <div className="links">
                   <ul>
-                    <a href="index.html">Home</a>
+                    <Link to="/" className="...">
+                      Home
+                    </Link>
                     <a href="#">Produtos</a>
-                    <a href="#">Serviços</a>
+                    <Link to="/servicos" className="...">
+                      Serviços
+                    </Link>
                     <a href="#AboutUs" className="About-Us-Link">
-                      Sobre nós
+                      Sobre Nós
                     </a>
                   </ul>
                 </div>
               </div>
               <div className="login-cad-section">
-                <a href="">Login</a> |<a href="">Cadastro</a>
+                <Link to="/login" className="...">
+                  Login
+                </Link> |<Link to="/cadastro" className="...">
+                  Cadastro
+                </Link>
               </div>
               <Search />
+
+
               <nav class="menu-hamburger">
+
                 <input id="menu-hamburguer" type="checkbox" />
                 <label for="menu-hamburguer">
                   <div class="menu">
@@ -114,7 +127,9 @@ const Header = () => {
 
                 <ul class="menu-hamburguer-elements show">
                   <li>
-                    <a href="#">Home</a>
+                    <Link to="/" className="...">
+                      Home
+                    </Link>
                   </li>
                   <li>
                     <a href="#">Produtos</a>
@@ -123,10 +138,16 @@ const Header = () => {
                     <a href="#">Serviços</a>
                   </li>
                   <li>
-                    <a href="#">Sobre Nós</a>
+                    <Link to="/servicos" className="...">
+                      Serviços
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Login/Cadastro</a>
+                    <Link to="/login" className="...">
+                      Login
+                    </Link> |<Link to="/cadastro" className="...">
+                      Cadastro
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -137,5 +158,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;

@@ -19,9 +19,9 @@ const Header = () => {
           <div className="links-responsive">
             <div className="links">
               <ul>
-                <a href="/" className="...">
+                <Link to="/" className="...">
                   Home
-                </a>
+                </Link>
                 <a href="#" className="...">
                   Produtos
                 </a>
@@ -29,7 +29,7 @@ const Header = () => {
                   Serviços
                 </Link>
                 <a href="#AboutUs" className="About-Us-Link">
-                  Sobre nós
+                  Sobre Nós
                 </a>
               </ul>
             </div>
@@ -56,21 +56,27 @@ const Header = () => {
             </label>
 
             <ul class="menu-hamburguer-elements show">
-            <li>
-              <a href="#">Home</a>
+              <li>
+                <Link to="/" className="...">
+                  Home
+                </Link>
               </li>
               <li>
                 <a href="#">Produtos</a>
-                </li>
+              </li>
               <li>
                 <a href="#">Serviços</a>
-                </li>
+              </li>
               <li>
                 <a href="#">Sobre Nós</a>
-                </li>
+              </li>
               <li>
-                <a href="#">Login/Cadastro</a>
-                </li>
+                <Link to="/login" className="...">
+                  Login
+                </Link> |<Link to="/cadastro" className="...">
+                  Cadastro
+                </Link>
+              </li>
             </ul>
           </nav>
 
@@ -85,48 +91,56 @@ const Header = () => {
               <div className="links-responsive">
                 <div className="links">
                   <ul>
-                    <a href="index.html">Home</a>
+                    <Link to="/" className="...">
+                      Home
+                    </Link>
                     <a href="#">Produtos</a>
-                    <a href="#">Serviços</a>
+                    <Link to="/servicos" className="...">
+                      Serviços
+                    </Link>
                     <a href="#AboutUs" className="About-Us-Link">
-                      Sobre nós
+                      Sobre Nós
                     </a>
                   </ul>
                 </div>
               </div>
               <div className="login-cad-section">
-                <a href="">Login</a> |<a href="">Cadastro</a>
+                <Link to="/login" className="...">
+                  Login
+                </Link> |<Link to="/cadastro" className="...">
+                  Cadastro
+                </Link>
               </div>
               <Search />
 
 
               <nav class="menu-hamburger">
 
-<input id="menu-hamburguer" type="checkbox" />
-<label for="menu-hamburguer">
-  <div class="menu">
-    <span class="hamburguer"></span>
-  </div>
-</label>
+                <input id="menu-hamburguer" type="checkbox" />
+                <label for="menu-hamburguer">
+                  <div class="menu">
+                    <span class="hamburguer"></span>
+                  </div>
+                </label>
 
-<ul class="menu-hamburguer-elements show">
-<li>
-  <a href="#">Home</a>
-  </li>
-  <li>
-    <a href="#">Produtos</a>
-    </li>
-  <li>
-    <a href="#">Serviços</a>
-    </li>
-  <li>
-    <a href="#">Sobre Nós</a>
-    </li>
-  <li>
-    <a href="#">Login/Cadastro</a>
-    </li>
-</ul>
-</nav>
+                <ul class="menu-hamburguer-elements show">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Produtos</a>
+                  </li>
+                  <li>
+                    <a href="#">Serviços</a>
+                  </li>
+                  <li>
+                    <a href="#">Sobre Nós</a>
+                  </li>
+                  <li>
+                    <a href="#">Login/Cadastro</a>
+                  </li>
+                </ul>
+              </nav>
             </nav>
           </div>
         </div>
