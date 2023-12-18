@@ -146,6 +146,7 @@ Aqui está alguns exemplos de sites utilizados:
   Inicialmente, nosso grupo planejou em utilizar o <b>Angular</b> como framework principal. Porém, devido a alguns problemas de transição do HTML e CSS para a aplicação, optamos em utilizar o React.
 </p>
 <br>
+
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/7da3eb7b-0370-4ff0-b042-2b01e5cda66c)
 <br>
 <p>
@@ -158,6 +159,7 @@ Aqui está alguns exemplos de sites utilizados:
   Conforme utilizamos o framework do react, tivemos que utilizar os seus recursos para desenvolver sua estrutura e layouts.
 </p>
 <br>
+
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/3a7501ba-ba88-4d31-9a47-fb86b70265de)
 <br>
 <p>
@@ -169,8 +171,10 @@ Aqui está alguns exemplos de sites utilizados:
   Sua navegação é divida em rotas, onde os elementos são colocados em uma única página e, assim evitando a letidão ao carregar.
 </p>
 <br>
+
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/1be9bbe9-0778-45d2-89d1-919bfa578449)
 <br>
+
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/45ef2668-6920-452a-90da-15827a743b1c)
 <br>
 
