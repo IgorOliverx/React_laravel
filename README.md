@@ -188,7 +188,6 @@ Aqui está alguns exemplos de sites utilizados:
 </p>
 
 <b>Aqui estão alguns exemplos de animações do site:</b>
-<br>
 ![ezgif com-video-to-gif-converted](https://github.com/IgorOliverx/React_laravel/assets/123770640/213a988d-8183-4ace-8b04-d0fcebaa7fc5)
 <br>
 ![ezgif com-video-to-gif-converted (1)](https://github.com/IgorOliverx/React_laravel/assets/123770640/a14f9064-4b94-4ff1-94ba-b6ddf1c01364)
