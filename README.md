@@ -188,11 +188,19 @@ Aqui está alguns exemplos de sites utilizados:
 </p>
 
 <b>Aqui estão alguns exemplos de animações do site:</b>
-<br>
+<br><br>
+<b>Links:</b>
+<br><br>
 ![ezgif com-video-to-gif-converted](https://github.com/IgorOliverx/React_laravel/assets/123770640/213a988d-8183-4ace-8b04-d0fcebaa7fc5)
+<br><br>
+<b>Botões:</b>
 <br><br>
 ![ezgif com-video-to-gif-converted (1)](https://github.com/IgorOliverx/React_laravel/assets/123770640/a14f9064-4b94-4ff1-94ba-b6ddf1c01364)
 <br><br>
+<b>Navbar:</b>
+<br><br>
 ![ezgif com-video-to-gif-converted (3)](https://github.com/IgorOliverx/React_laravel/assets/123770640/2fbdcfd9-e05f-429c-bd82-08b017dbddf0)
+<br><br>
+<b>Seções animadas com botões:</b>
 <br><br>
 ![ezgif com-video-to-gif-converted (2)](https://github.com/IgorOliverx/React_laravel/assets/123770640/790913c8-d26f-44c1-8160-ff2f53ef378a)
