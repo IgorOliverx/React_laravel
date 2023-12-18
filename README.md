@@ -17,7 +17,7 @@ Neste documento você verá a produção do estilo e layout do site Pet Candle, 
     <li>Público-Alvo;</li>
     <li>Paleta de Cores;</li>
     <li>Tipografia;</li>
-    <li>Logotipo e Elementos do Site.</li>
+    <li>Logotipo.</li>
   </ol>
   <br>
   <li>Desenvolvimento:</li>
@@ -33,7 +33,6 @@ Neste documento você verá a produção do estilo e layout do site Pet Candle, 
 <hr>
 
 <ul><li><h2>Introdução: Organização na criação de designs para o site.</h2></li></ul>
-
 <p>
   No início do projeto, o protótipo do site foi realizado no Figma, onde foram dividas as tarefas de design para cada integrante do projeto, ou seja, cada membro possuía a liberdade de criar seu próprio layout e estrutura.
    Com isso, os participantes poderiam expressar suas opiniões e mesclar as melhoras ideias de designs criados.
@@ -61,13 +60,11 @@ Design do Igor:
 <h5><b>Obs.: (Está página foi utilizada por todos os membros do grupo)</b></h5>
 
 <ul><li><h2>Identidade Visual: Público-Alvo.</h2></li></ul>
-<br>
 <p>
     Não possuímos um público-alvo específico, pois nosso site pode ser direcionado a todos os tipos de pessoas, desde jovens até idosos.
 </p>
 <br>
 <ul><li><h2>Identidade Visual: Paleta de Cores.</h2></li></ul>
-<br>
 <p>
      Durante o desenvolvimento do design, foi discutido qual seria as cores principais que refretem a personalidade do site.
    Então, foi chega-se à conclusão de que as melhores cores principais seriam verde, laranja e branca.
@@ -92,7 +89,6 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <br><br>
 
 <ul><li><h2>Identidade Visual: Tipografia.</h2></li></ul>
-<br>
 <p>
      Como fonte padrão, foi escolhido a fonte: “Hammersmith One”
 </p>
@@ -112,8 +108,7 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <p>Foi utilizado a propriedade <b>“root”</b> no CSS para armazenamos está fonte em uma variável para ser mais prático.</p>
 <br>
 
-<ul><li><h2>Identidade Visual: Logotipo e elementos do site.</h2></li></ul>
-<br>
+<ul><li><h2>Identidade Visual: Logotipo.</h2></li></ul>
 <p>
      Para o logotipo, foi utilizado um site chamado <b>“Looka”</b>, um ótimo recurso para criação de logos.
 </p>
@@ -128,8 +123,6 @@ Aqui está alguns exemplos de cores utilizadas tanto no protótipo, quanto no pr
 <br>
 
 <ul><li><h2>Desenvolvimento: Referências e Recursos.</h2></li></ul>
-<br>
-
 <p>
      Alguns sites foram utilizados como inspiração para a criação do design do site, alguns são conhecidos e outros são apenas templates da internet.
 
@@ -152,4 +145,32 @@ Aqui está alguns exemplos de sites utilizados:
 <p>
   Inicialmente, nosso grupo planejou em utilizar o <b>Angular</b> como framework principal. Porém, devido a alguns problemas de transição do HTML e CSS para a aplicação, optamos em utilizar o React.
 </p>
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/7da3eb7b-0370-4ff0-b042-2b01e5cda66c)
+<br>
+<p>
+  Entretanto, tivemos alguns problemas durante a utilização do React, como duplicação de classes e problemas com o Javascript.
+</p>
+<br>
+
+<ul><li><h2>Desenvolvimento: Estrutura e Layout.</h2></li></ul>
+<p>
+  Conforme utilizamos o framework do react, tivemos que utilizar os seus recursos para desenvolver sua estrutura e layouts.
+</p>
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/3a7501ba-ba88-4d31-9a47-fb86b70265de)
+<br>
+<p>
+  Sua estrutura é divida em componentes, onde eles serão mesclados para formar o site por completo. 
+</p>
+<br>
+<ul><li><h2>Desenvolvimento: Navegação.</h2></li></ul>
+<p>
+  Sua navegação é divida em rotas, onde os elementos são colocados em uma única página e, assim evitando a letidão ao carregar.
+</p>
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/1be9bbe9-0778-45d2-89d1-919bfa578449)
+<br>
+![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/45ef2668-6920-452a-90da-15827a743b1c)
+<br>
 
