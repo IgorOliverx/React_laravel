@@ -178,3 +178,15 @@ Aqui está alguns exemplos de sites utilizados:
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/45ef2668-6920-452a-90da-15827a743b1c)
 <br>
 
+<ul><li><h2>Desenvolvimento: Componentes e Elementos Interativos.</h2></li></ul>
+<p>
+  O site possuí vários elementos interativos que apresentam animações interessantes e bem divertidas.
+</p>
+<br>
+<p> 
+  Alguns desses elementos são botões, links, carrosséis e âncoras.
+</p>
+<br>
+
+![ezgif com-video-to-gif-converted](https://github.com/IgorOliverx/React_laravel/assets/123770640/213a988d-8183-4ace-8b04-d0fcebaa7fc5)
+
