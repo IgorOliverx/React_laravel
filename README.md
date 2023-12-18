@@ -182,7 +182,6 @@ Aqui está alguns exemplos de sites utilizados:
 <p>
   O site possuí vários elementos interativos que apresentam animações interessantes e bem divertidas.
 </p>
-<br>
 <p> 
   Alguns desses elementos são botões, links, carrosséis, âncoras e muito mais!
 </p>
