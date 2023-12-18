@@ -147,5 +147,9 @@ Aqui está alguns exemplos de sites utilizados:
 ![image](https://github.com/IgorOliverx/React_laravel/assets/123770640/c5d1e436-9355-4154-9269-1a17910ed2dd)
 <br><br>
 
+<ul><li><h2>Desenvolvimento: Framework.</h2></li></ul>
 
+<p>
+  Inicialmente, nosso grupo planejou em utilizar o <b>Angular</b> como framework principal. Porém, devido a alguns problemas de transição do HTML e CSS para a aplicação, optamos em utilizar o React.
+</p>
 
